@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047B5D2120994F0800F87B6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047B5D2020994F0800F87B6C /* AppDelegate.m */; };
+		047B5D2420994F0800F87B6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047B5D2320994F0800F87B6C /* ViewController.m */; };
+		047B5D2720994F0800F87B6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047B5D2520994F0800F87B6C /* Main.storyboard */; };
+		047B5D2920994F0900F87B6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047B5D2820994F0900F87B6C /* Assets.xcassets */; };
+		047B5D2C20994F0900F87B6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047B5D2A20994F0900F87B6C /* LaunchScreen.storyboard */; };
+		047B5D2F20994F0900F87B6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047B5D2E20994F0900F87B6C /* main.m */; };
+		047B5D3920994F0900F87B6C /* FQFingerPrintLockDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047B5D3820994F0900F87B6C /* FQFingerPrintLockDemoTests.m */; };
+		047B5D4420994F0900F87B6C /* FQFingerPrintLockDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047B5D4320994F0900F87B6C /* FQFingerPrintLockDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		047B5D3520994F0900F87B6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047B5D1420994F0800F87B6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047B5D1B20994F0800F87B6C;
+			remoteInfo = FQFingerPrintLockDemo;
+		};
+		047B5D4020994F0900F87B6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047B5D1420994F0800F87B6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047B5D1B20994F0800F87B6C;
+			remoteInfo = FQFingerPrintLockDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047B5D1C20994F0800F87B6C /* FQFingerPrintLockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FQFingerPrintLockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		047B5D1F20994F0800F87B6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		047B5D2020994F0800F87B6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		047B5D2220994F0800F87B6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		047B5D2320994F0800F87B6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		047B5D2620994F0800F87B6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		047B5D2820994F0900F87B6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047B5D2B20994F0900F87B6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		047B5D2D20994F0900F87B6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047B5D2E20994F0900F87B6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		047B5D3420994F0900F87B6C /* FQFingerPrintLockDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQFingerPrintLockDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047B5D3820994F0900F87B6C /* FQFingerPrintLockDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQFingerPrintLockDemoTests.m; sourceTree = "<group>"; };
+		047B5D3A20994F0900F87B6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047B5D3F20994F0900F87B6C /* FQFingerPrintLockDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQFingerPrintLockDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047B5D4320994F0900F87B6C /* FQFingerPrintLockDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQFingerPrintLockDemoUITests.m; sourceTree = "<group>"; };
+		047B5D4520994F0900F87B6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047B5D1920994F0800F87B6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047B5D3120994F0900F87B6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047B5D3C20994F0900F87B6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047B5D1320994F0800F87B6C = {
+			isa = PBXGroup;
+			children = (
+				047B5D1E20994F0800F87B6C /* FQFingerPrintLockDemo */,
+				047B5D3720994F0900F87B6C /* FQFingerPrintLockDemoTests */,
+				047B5D4220994F0900F87B6C /* FQFingerPrintLockDemoUITests */,
+				047B5D1D20994F0800F87B6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		047B5D1D20994F0800F87B6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047B5D1C20994F0800F87B6C /* FQFingerPrintLockDemo.app */,
+				047B5D3420994F0900F87B6C /* FQFingerPrintLockDemoTests.xctest */,
+				047B5D3F20994F0900F87B6C /* FQFingerPrintLockDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047B5D1E20994F0800F87B6C /* FQFingerPrintLockDemo */ = {
+			isa = PBXGroup;
+			children = (
+				047B5D1F20994F0800F87B6C /* AppDelegate.h */,
+				047B5D2020994F0800F87B6C /* AppDelegate.m */,
+				047B5D2220994F0800F87B6C /* ViewController.h */,
+				047B5D2320994F0800F87B6C /* ViewController.m */,
+				047B5D2520994F0800F87B6C /* Main.storyboard */,
+				047B5D2820994F0900F87B6C /* Assets.xcassets */,
+				047B5D2A20994F0900F87B6C /* LaunchScreen.storyboard */,
+				047B5D2D20994F0900F87B6C /* Info.plist */,
+				047B5D2E20994F0900F87B6C /* main.m */,
+			);
+			path = FQFingerPrintLockDemo;
+			sourceTree = "<group>";
+		};
+		047B5D3720994F0900F87B6C /* FQFingerPrintLockDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				047B5D3820994F0900F87B6C /* FQFingerPrintLockDemoTests.m */,
+				047B5D3A20994F0900F87B6C /* Info.plist */,
+			);
+			path = FQFingerPrintLockDemoTests;
+			sourceTree = "<group>";
+		};
+		047B5D4220994F0900F87B6C /* FQFingerPrintLockDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				047B5D4320994F0900F87B6C /* FQFingerPrintLockDemoUITests.m */,
+				047B5D4520994F0900F87B6C /* Info.plist */,
+			);
+			path = FQFingerPrintLockDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047B5D1B20994F0800F87B6C /* FQFingerPrintLockDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047B5D4820994F0900F87B6C /* Build configuration list for PBXNativeTarget "FQFingerPrintLockDemo" */;
+			buildPhases = (
+				047B5D1820994F0800F87B6C /* Sources */,
+				047B5D1920994F0800F87B6C /* Frameworks */,
+				047B5D1A20994F0800F87B6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FQFingerPrintLockDemo;
+			productName = FQFingerPrintLockDemo;
+			productReference = 047B5D1C20994F0800F87B6C /* FQFingerPrintLockDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		047B5D3320994F0900F87B6C /* FQFingerPrintLockDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047B5D4B20994F0900F87B6C /* Build configuration list for PBXNativeTarget "FQFingerPrintLockDemoTests" */;
+			buildPhases = (
+				047B5D3020994F0900F87B6C /* Sources */,
+				047B5D3120994F0900F87B6C /* Frameworks */,
+				047B5D3220994F0900F87B6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047B5D3620994F0900F87B6C /* PBXTargetDependency */,
+			);
+			name = FQFingerPrintLockDemoTests;
+			productName = FQFingerPrintLockDemoTests;
+			productReference = 047B5D3420994F0900F87B6C /* FQFingerPrintLockDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		047B5D3E20994F0900F87B6C /* FQFingerPrintLockDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047B5D4E20994F0900F87B6C /* Build configuration list for PBXNativeTarget "FQFingerPrintLockDemoUITests" */;
+			buildPhases = (
+				047B5D3B20994F0900F87B6C /* Sources */,
+				047B5D3C20994F0900F87B6C /* Frameworks */,
+				047B5D3D20994F0900F87B6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047B5D4120994F0900F87B6C /* PBXTargetDependency */,
+			);
+			name = FQFingerPrintLockDemoUITests;
+			productName = FQFingerPrintLockDemoUITests;
+			productReference = 047B5D3F20994F0900F87B6C /* FQFingerPrintLockDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047B5D1420994F0800F87B6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					047B5D1B20994F0800F87B6C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					047B5D3320994F0900F87B6C = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 047B5D1B20994F0800F87B6C;
+					};
+					047B5D3E20994F0900F87B6C = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 047B5D1B20994F0800F87B6C;
+					};
+				};
+			};
+			buildConfigurationList = 047B5D1720994F0800F87B6C /* Build configuration list for PBXProject "FQFingerPrintLockDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047B5D1320994F0800F87B6C;
+			productRefGroup = 047B5D1D20994F0800F87B6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047B5D1B20994F0800F87B6C /* FQFingerPrintLockDemo */,
+				047B5D3320994F0900F87B6C /* FQFingerPrintLockDemoTests */,
+				047B5D3E20994F0900F87B6C /* FQFingerPrintLockDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047B5D1A20994F0800F87B6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047B5D2C20994F0900F87B6C /* LaunchScreen.storyboard in Resources */,
+				047B5D2920994F0900F87B6C /* Assets.xcassets in Resources */,
+				047B5D2720994F0800F87B6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047B5D3220994F0900F87B6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047B5D3D20994F0900F87B6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047B5D1820994F0800F87B6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047B5D2420994F0800F87B6C /* ViewController.m in Sources */,
+				047B5D2F20994F0900F87B6C /* main.m in Sources */,
+				047B5D2120994F0800F87B6C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047B5D3020994F0900F87B6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047B5D3920994F0900F87B6C /* FQFingerPrintLockDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047B5D3B20994F0900F87B6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047B5D4420994F0900F87B6C /* FQFingerPrintLockDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		047B5D3620994F0900F87B6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047B5D1B20994F0800F87B6C /* FQFingerPrintLockDemo */;
+			targetProxy = 047B5D3520994F0900F87B6C /* PBXContainerItemProxy */;
+		};
+		047B5D4120994F0900F87B6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047B5D1B20994F0800F87B6C /* FQFingerPrintLockDemo */;
+			targetProxy = 047B5D4020994F0900F87B6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		047B5D2520994F0800F87B6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047B5D2620994F0800F87B6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		047B5D2A20994F0900F87B6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047B5D2B20994F0900F87B6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		047B5D4620994F0900F87B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		047B5D4720994F0900F87B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047B5D4920994F0900F87B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = FQFingerPrintLockDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQFingerPrintLockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		047B5D4A20994F0900F87B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = FQFingerPrintLockDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQFingerPrintLockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		047B5D4C20994F0900F87B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = FQFingerPrintLockDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQFingerPrintLockDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FQFingerPrintLockDemo.app/FQFingerPrintLockDemo";
+			};
+			name = Debug;
+		};
+		047B5D4D20994F0900F87B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = FQFingerPrintLockDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQFingerPrintLockDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FQFingerPrintLockDemo.app/FQFingerPrintLockDemo";
+			};
+			name = Release;
+		};
+		047B5D4F20994F0900F87B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = FQFingerPrintLockDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQFingerPrintLockDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FQFingerPrintLockDemo;
+			};
+			name = Debug;
+		};
+		047B5D5020994F0900F87B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = FQFingerPrintLockDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQFingerPrintLockDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FQFingerPrintLockDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047B5D1720994F0800F87B6C /* Build configuration list for PBXProject "FQFingerPrintLockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047B5D4620994F0900F87B6C /* Debug */,
+				047B5D4720994F0900F87B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047B5D4820994F0900F87B6C /* Build configuration list for PBXNativeTarget "FQFingerPrintLockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047B5D4920994F0900F87B6C /* Debug */,
+				047B5D4A20994F0900F87B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047B5D4B20994F0900F87B6C /* Build configuration list for PBXNativeTarget "FQFingerPrintLockDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047B5D4C20994F0900F87B6C /* Debug */,
+				047B5D4D20994F0900F87B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047B5D4E20994F0900F87B6C /* Build configuration list for PBXNativeTarget "FQFingerPrintLockDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047B5D4F20994F0900F87B6C /* Debug */,
+				047B5D5020994F0900F87B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047B5D1420994F0800F87B6C /* Project object */;
+}

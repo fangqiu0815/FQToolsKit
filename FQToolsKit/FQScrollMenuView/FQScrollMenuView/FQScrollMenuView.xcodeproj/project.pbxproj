@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044FF22B208EE39A008F3829 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FF22A208EE39A008F3829 /* AppDelegate.m */; };
+		044FF22E208EE39A008F3829 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FF22D208EE39A008F3829 /* ViewController.m */; };
+		044FF231208EE39A008F3829 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044FF22F208EE39A008F3829 /* Main.storyboard */; };
+		044FF233208EE39D008F3829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044FF232208EE39D008F3829 /* Assets.xcassets */; };
+		044FF236208EE39D008F3829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044FF234208EE39D008F3829 /* LaunchScreen.storyboard */; };
+		044FF239208EE39D008F3829 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FF238208EE39D008F3829 /* main.m */; };
+		044FF243208EE39D008F3829 /* FQScrollMenuViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FF242208EE39D008F3829 /* FQScrollMenuViewTests.m */; };
+		044FF24E208EE39D008F3829 /* FQScrollMenuViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FF24D208EE39D008F3829 /* FQScrollMenuViewUITests.m */; };
+		044FF25E208F01D3008F3829 /* FQScrollMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FF25D208F01D3008F3829 /* FQScrollMenu.m */; };
+		044FF261208F01FB008F3829 /* FQScrollMenuViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FF260208F01FB008F3829 /* FQScrollMenuViewLayout.m */; };
+		044FF267208F18DC008F3829 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FF266208F18DC008F3829 /* DataSource.m */; };
+		044FF26A208F1E4E008F3829 /* FQScrollFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FF269208F1E4E008F3829 /* FQScrollFlowLayout.m */; };
+		99068FE62E92E21DF2EE86CD /* libPods-FQScrollMenuView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 868D22628D7950FE5D37C6B3 /* libPods-FQScrollMenuView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		044FF23F208EE39D008F3829 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044FF21E208EE39A008F3829 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044FF225208EE39A008F3829;
+			remoteInfo = FQScrollMenuView;
+		};
+		044FF24A208EE39D008F3829 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044FF21E208EE39A008F3829 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044FF225208EE39A008F3829;
+			remoteInfo = FQScrollMenuView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044FF226208EE39A008F3829 /* FQScrollMenuView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FQScrollMenuView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		044FF229208EE39A008F3829 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		044FF22A208EE39A008F3829 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		044FF22C208EE39A008F3829 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		044FF22D208EE39A008F3829 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		044FF230208EE39A008F3829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044FF232208EE39D008F3829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044FF235208EE39D008F3829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		044FF237208EE39D008F3829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044FF238208EE39D008F3829 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		044FF23E208EE39D008F3829 /* FQScrollMenuViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQScrollMenuViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044FF242208EE39D008F3829 /* FQScrollMenuViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQScrollMenuViewTests.m; sourceTree = "<group>"; };
+		044FF244208EE39D008F3829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044FF249208EE39D008F3829 /* FQScrollMenuViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQScrollMenuViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044FF24D208EE39D008F3829 /* FQScrollMenuViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQScrollMenuViewUITests.m; sourceTree = "<group>"; };
+		044FF24F208EE39D008F3829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044FF25C208F01D3008F3829 /* FQScrollMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQScrollMenu.h; sourceTree = "<group>"; };
+		044FF25D208F01D3008F3829 /* FQScrollMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQScrollMenu.m; sourceTree = "<group>"; };
+		044FF25F208F01FB008F3829 /* FQScrollMenuViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQScrollMenuViewLayout.h; sourceTree = "<group>"; };
+		044FF260208F01FB008F3829 /* FQScrollMenuViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQScrollMenuViewLayout.m; sourceTree = "<group>"; };
+		044FF265208F18DC008F3829 /* DataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		044FF266208F18DC008F3829 /* DataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		044FF268208F1E4E008F3829 /* FQScrollFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQScrollFlowLayout.h; sourceTree = "<group>"; };
+		044FF269208F1E4E008F3829 /* FQScrollFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQScrollFlowLayout.m; sourceTree = "<group>"; };
+		868D22628D7950FE5D37C6B3 /* libPods-FQScrollMenuView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FQScrollMenuView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7257556AAA4FB34A50C98C0 /* Pods-FQScrollMenuView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQScrollMenuView.release.xcconfig"; path = "Pods/Target Support Files/Pods-FQScrollMenuView/Pods-FQScrollMenuView.release.xcconfig"; sourceTree = "<group>"; };
+		E8ABA628447928F4B4C28BB6 /* Pods-FQScrollMenuView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQScrollMenuView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FQScrollMenuView/Pods-FQScrollMenuView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044FF223208EE39A008F3829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99068FE62E92E21DF2EE86CD /* libPods-FQScrollMenuView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044FF23B208EE39D008F3829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044FF246208EE39D008F3829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044FF21D208EE39A008F3829 = {
+			isa = PBXGroup;
+			children = (
+				044FF25B208EE42D008F3829 /* FQScrollMenu */,
+				044FF228208EE39A008F3829 /* FQScrollMenuView */,
+				044FF241208EE39D008F3829 /* FQScrollMenuViewTests */,
+				044FF24C208EE39D008F3829 /* FQScrollMenuViewUITests */,
+				044FF227208EE39A008F3829 /* Products */,
+				F2128D378FE302E092A2720A /* Pods */,
+				AE248656DCFBFC3EA3467D95 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		044FF227208EE39A008F3829 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044FF226208EE39A008F3829 /* FQScrollMenuView.app */,
+				044FF23E208EE39D008F3829 /* FQScrollMenuViewTests.xctest */,
+				044FF249208EE39D008F3829 /* FQScrollMenuViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044FF228208EE39A008F3829 /* FQScrollMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				044FF229208EE39A008F3829 /* AppDelegate.h */,
+				044FF22A208EE39A008F3829 /* AppDelegate.m */,
+				044FF25F208F01FB008F3829 /* FQScrollMenuViewLayout.h */,
+				044FF260208F01FB008F3829 /* FQScrollMenuViewLayout.m */,
+				044FF265208F18DC008F3829 /* DataSource.h */,
+				044FF266208F18DC008F3829 /* DataSource.m */,
+				044FF22C208EE39A008F3829 /* ViewController.h */,
+				044FF22D208EE39A008F3829 /* ViewController.m */,
+				044FF22F208EE39A008F3829 /* Main.storyboard */,
+				044FF232208EE39D008F3829 /* Assets.xcassets */,
+				044FF234208EE39D008F3829 /* LaunchScreen.storyboard */,
+				044FF237208EE39D008F3829 /* Info.plist */,
+				044FF238208EE39D008F3829 /* main.m */,
+			);
+			path = FQScrollMenuView;
+			sourceTree = "<group>";
+		};
+		044FF241208EE39D008F3829 /* FQScrollMenuViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				044FF242208EE39D008F3829 /* FQScrollMenuViewTests.m */,
+				044FF244208EE39D008F3829 /* Info.plist */,
+			);
+			path = FQScrollMenuViewTests;
+			sourceTree = "<group>";
+		};
+		044FF24C208EE39D008F3829 /* FQScrollMenuViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				044FF24D208EE39D008F3829 /* FQScrollMenuViewUITests.m */,
+				044FF24F208EE39D008F3829 /* Info.plist */,
+			);
+			path = FQScrollMenuViewUITests;
+			sourceTree = "<group>";
+		};
+		044FF25B208EE42D008F3829 /* FQScrollMenu */ = {
+			isa = PBXGroup;
+			children = (
+				044FF25C208F01D3008F3829 /* FQScrollMenu.h */,
+				044FF25D208F01D3008F3829 /* FQScrollMenu.m */,
+				044FF268208F1E4E008F3829 /* FQScrollFlowLayout.h */,
+				044FF269208F1E4E008F3829 /* FQScrollFlowLayout.m */,
+			);
+			path = FQScrollMenu;
+			sourceTree = "<group>";
+		};
+		AE248656DCFBFC3EA3467D95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				868D22628D7950FE5D37C6B3 /* libPods-FQScrollMenuView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2128D378FE302E092A2720A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8ABA628447928F4B4C28BB6 /* Pods-FQScrollMenuView.debug.xcconfig */,
+				E7257556AAA4FB34A50C98C0 /* Pods-FQScrollMenuView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044FF225208EE39A008F3829 /* FQScrollMenuView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044FF252208EE39D008F3829 /* Build configuration list for PBXNativeTarget "FQScrollMenuView" */;
+			buildPhases = (
+				469EF93190A711F61A1C40AE /* [CP] Check Pods Manifest.lock */,
+				044FF222208EE39A008F3829 /* Sources */,
+				044FF223208EE39A008F3829 /* Frameworks */,
+				044FF224208EE39A008F3829 /* Resources */,
+				14AA4CB1D0CD41F02702447D /* [CP] Embed Pods Frameworks */,
+				4999A35D06561F4B07337A77 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FQScrollMenuView;
+			productName = FQScrollMenuView;
+			productReference = 044FF226208EE39A008F3829 /* FQScrollMenuView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		044FF23D208EE39D008F3829 /* FQScrollMenuViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044FF255208EE39D008F3829 /* Build configuration list for PBXNativeTarget "FQScrollMenuViewTests" */;
+			buildPhases = (
+				044FF23A208EE39D008F3829 /* Sources */,
+				044FF23B208EE39D008F3829 /* Frameworks */,
+				044FF23C208EE39D008F3829 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044FF240208EE39D008F3829 /* PBXTargetDependency */,
+			);
+			name = FQScrollMenuViewTests;
+			productName = FQScrollMenuViewTests;
+			productReference = 044FF23E208EE39D008F3829 /* FQScrollMenuViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		044FF248208EE39D008F3829 /* FQScrollMenuViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044FF258208EE39D008F3829 /* Build configuration list for PBXNativeTarget "FQScrollMenuViewUITests" */;
+			buildPhases = (
+				044FF245208EE39D008F3829 /* Sources */,
+				044FF246208EE39D008F3829 /* Frameworks */,
+				044FF247208EE39D008F3829 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044FF24B208EE39D008F3829 /* PBXTargetDependency */,
+			);
+			name = FQScrollMenuViewUITests;
+			productName = FQScrollMenuViewUITests;
+			productReference = 044FF249208EE39D008F3829 /* FQScrollMenuViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044FF21E208EE39A008F3829 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					044FF225208EE39A008F3829 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					044FF23D208EE39D008F3829 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 044FF225208EE39A008F3829;
+					};
+					044FF248208EE39D008F3829 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 044FF225208EE39A008F3829;
+					};
+				};
+			};
+			buildConfigurationList = 044FF221208EE39A008F3829 /* Build configuration list for PBXProject "FQScrollMenuView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044FF21D208EE39A008F3829;
+			productRefGroup = 044FF227208EE39A008F3829 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044FF225208EE39A008F3829 /* FQScrollMenuView */,
+				044FF23D208EE39D008F3829 /* FQScrollMenuViewTests */,
+				044FF248208EE39D008F3829 /* FQScrollMenuViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044FF224208EE39A008F3829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044FF236208EE39D008F3829 /* LaunchScreen.storyboard in Resources */,
+				044FF233208EE39D008F3829 /* Assets.xcassets in Resources */,
+				044FF231208EE39A008F3829 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044FF23C208EE39D008F3829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044FF247208EE39D008F3829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14AA4CB1D0CD41F02702447D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FQScrollMenuView/Pods-FQScrollMenuView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		469EF93190A711F61A1C40AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FQScrollMenuView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4999A35D06561F4B07337A77 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FQScrollMenuView/Pods-FQScrollMenuView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044FF222208EE39A008F3829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044FF25E208F01D3008F3829 /* FQScrollMenu.m in Sources */,
+				044FF22E208EE39A008F3829 /* ViewController.m in Sources */,
+				044FF267208F18DC008F3829 /* DataSource.m in Sources */,
+				044FF26A208F1E4E008F3829 /* FQScrollFlowLayout.m in Sources */,
+				044FF239208EE39D008F3829 /* main.m in Sources */,
+				044FF22B208EE39A008F3829 /* AppDelegate.m in Sources */,
+				044FF261208F01FB008F3829 /* FQScrollMenuViewLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044FF23A208EE39D008F3829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044FF243208EE39D008F3829 /* FQScrollMenuViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044FF245208EE39D008F3829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044FF24E208EE39D008F3829 /* FQScrollMenuViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		044FF240208EE39D008F3829 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044FF225208EE39A008F3829 /* FQScrollMenuView */;
+			targetProxy = 044FF23F208EE39D008F3829 /* PBXContainerItemProxy */;
+		};
+		044FF24B208EE39D008F3829 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044FF225208EE39A008F3829 /* FQScrollMenuView */;
+			targetProxy = 044FF24A208EE39D008F3829 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		044FF22F208EE39A008F3829 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044FF230208EE39A008F3829 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		044FF234208EE39D008F3829 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044FF235208EE39D008F3829 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		044FF250208EE39D008F3829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		044FF251208EE39D008F3829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044FF253208EE39D008F3829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8ABA628447928F4B4C28BB6 /* Pods-FQScrollMenuView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = FQScrollMenuView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQScrollMenuView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		044FF254208EE39D008F3829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7257556AAA4FB34A50C98C0 /* Pods-FQScrollMenuView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = FQScrollMenuView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQScrollMenuView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		044FF256208EE39D008F3829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = FQScrollMenuViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQScrollMenuViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FQScrollMenuView.app/FQScrollMenuView";
+			};
+			name = Debug;
+		};
+		044FF257208EE39D008F3829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = FQScrollMenuViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQScrollMenuViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FQScrollMenuView.app/FQScrollMenuView";
+			};
+			name = Release;
+		};
+		044FF259208EE39D008F3829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = FQScrollMenuViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQScrollMenuViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FQScrollMenuView;
+			};
+			name = Debug;
+		};
+		044FF25A208EE39D008F3829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = FQScrollMenuViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQScrollMenuViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FQScrollMenuView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044FF221208EE39A008F3829 /* Build configuration list for PBXProject "FQScrollMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044FF250208EE39D008F3829 /* Debug */,
+				044FF251208EE39D008F3829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044FF252208EE39D008F3829 /* Build configuration list for PBXNativeTarget "FQScrollMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044FF253208EE39D008F3829 /* Debug */,
+				044FF254208EE39D008F3829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044FF255208EE39D008F3829 /* Build configuration list for PBXNativeTarget "FQScrollMenuViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044FF256208EE39D008F3829 /* Debug */,
+				044FF257208EE39D008F3829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044FF258208EE39D008F3829 /* Build configuration list for PBXNativeTarget "FQScrollMenuViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044FF259208EE39D008F3829 /* Debug */,
+				044FF25A208EE39D008F3829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044FF21E208EE39A008F3829 /* Project object */;
+}
