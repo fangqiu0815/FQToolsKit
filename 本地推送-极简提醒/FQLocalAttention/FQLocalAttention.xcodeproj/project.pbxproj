@@ -15,6 +15,8 @@
 		0449C5D320C53A570003C983 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449C5D220C53A570003C983 /* main.m */; };
 		0449C5DD20C53A570003C983 /* FQLocalAttentionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449C5DC20C53A570003C983 /* FQLocalAttentionTests.m */; };
 		0449C5E820C53A570003C983 /* FQLocalAttentionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449C5E720C53A570003C983 /* FQLocalAttentionUITests.m */; };
+		0475431320C664460023B44E /* FQLocalNotificationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475431220C664460023B44E /* FQLocalNotificationTool.m */; };
+		0475431620C664990023B44E /* NSString+FQString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475431520C664990023B44E /* NSString+FQString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		0449C5E320C53A570003C983 /* FQLocalAttentionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQLocalAttentionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0449C5E720C53A570003C983 /* FQLocalAttentionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQLocalAttentionUITests.m; sourceTree = "<group>"; };
 		0449C5E920C53A570003C983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0475431120C664460023B44E /* FQLocalNotificationTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQLocalNotificationTool.h; sourceTree = "<group>"; };
+		0475431220C664460023B44E /* FQLocalNotificationTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQLocalNotificationTool.m; sourceTree = "<group>"; };
+		0475431420C664990023B44E /* NSString+FQString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+FQString.h"; sourceTree = "<group>"; };
+		0475431520C664990023B44E /* NSString+FQString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+FQString.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		0449C5C220C53A560003C983 /* FQLocalAttention */ = {
 			isa = PBXGroup;
 			children = (
+				0475431020C664090023B44E /* FQLocalNotiTool */,
 				0449C5C320C53A560003C983 /* AppDelegate.h */,
 				0449C5C420C53A560003C983 /* AppDelegate.m */,
 				0449C5C620C53A560003C983 /* ViewController.h */,
@@ -130,6 +137,17 @@
 				0449C5E920C53A570003C983 /* Info.plist */,
 			);
 			path = FQLocalAttentionUITests;
+			sourceTree = "<group>";
+		};
+		0475431020C664090023B44E /* FQLocalNotiTool */ = {
+			isa = PBXGroup;
+			children = (
+				0475431120C664460023B44E /* FQLocalNotificationTool.h */,
+				0475431220C664460023B44E /* FQLocalNotificationTool.m */,
+				0475431420C664990023B44E /* NSString+FQString.h */,
+				0475431520C664990023B44E /* NSString+FQString.m */,
+			);
+			path = FQLocalNotiTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +282,9 @@
 			files = (
 				0449C5C820C53A560003C983 /* ViewController.m in Sources */,
 				0449C5D320C53A570003C983 /* main.m in Sources */,
+				0475431620C664990023B44E /* NSString+FQString.m in Sources */,
 				0449C5C520C53A560003C983 /* AppDelegate.m in Sources */,
+				0475431320C664460023B44E /* FQLocalNotificationTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,13 +456,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AR9M6JHEVE;
 				INFOPLIST_FILE = FQLocalAttention/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQLocalAttention;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -453,13 +474,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AR9M6JHEVE;
 				INFOPLIST_FILE = FQLocalAttention/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQLocalAttention;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

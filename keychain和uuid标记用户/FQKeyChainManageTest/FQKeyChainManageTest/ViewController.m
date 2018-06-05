@@ -1,12 +1,13 @@
 //
 //  ViewController.m
-//  FQLocalAttention
+//  FQKeyChainManageTest
 //
 //  Created by mac on 2018/6/4.
 //  Copyright © 2018年 mac. All rights reserved.
 //
 
 #import "ViewController.h"
+#import "FQKeyChainDataManage.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"%@",[FQKeyChainDataManage fq_readUUID]);
+    
 }
 
 
