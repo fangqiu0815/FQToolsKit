@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045BD94B20C772310032B095 /* UITextField+FQCustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 045BD94A20C772310032B095 /* UITextField+FQCustomTextField.m */; };
+		047543AE20C6749B0023B44E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047543AD20C6749B0023B44E /* AppDelegate.m */; };
+		047543B120C6749B0023B44E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047543B020C6749B0023B44E /* ViewController.m */; };
+		047543B420C6749B0023B44E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047543B220C6749B0023B44E /* Main.storyboard */; };
+		047543B620C6749C0023B44E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047543B520C6749C0023B44E /* Assets.xcassets */; };
+		047543B920C6749C0023B44E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047543B720C6749C0023B44E /* LaunchScreen.storyboard */; };
+		047543BC20C6749C0023B44E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047543BB20C6749C0023B44E /* main.m */; };
+		047543C620C6749C0023B44E /* FQCustomTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047543C520C6749C0023B44E /* FQCustomTextFieldTests.m */; };
+		047543D120C6749C0023B44E /* FQCustomTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 047543D020C6749C0023B44E /* FQCustomTextFieldUITests.m */; };
+		0475442220C683930023B44E /* UIView+FQTextInputKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475442120C683930023B44E /* UIView+FQTextInputKeyBoard.m */; };
+		0475443220C6914C0023B44E /* UIView+FQFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475443120C6914C0023B44E /* UIView+FQFrame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		047543C220C6749C0023B44E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047543A120C6749B0023B44E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047543A820C6749B0023B44E;
+			remoteInfo = FQCustomTextField;
+		};
+		047543CD20C6749C0023B44E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047543A120C6749B0023B44E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047543A820C6749B0023B44E;
+			remoteInfo = FQCustomTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045BD94920C772310032B095 /* UITextField+FQCustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+FQCustomTextField.h"; sourceTree = "<group>"; };
+		045BD94A20C772310032B095 /* UITextField+FQCustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+FQCustomTextField.m"; sourceTree = "<group>"; };
+		047543A920C6749B0023B44E /* FQCustomTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FQCustomTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		047543AC20C6749B0023B44E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		047543AD20C6749B0023B44E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		047543AF20C6749B0023B44E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		047543B020C6749B0023B44E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		047543B320C6749B0023B44E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		047543B520C6749C0023B44E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047543B820C6749C0023B44E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		047543BA20C6749C0023B44E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047543BB20C6749C0023B44E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		047543C120C6749C0023B44E /* FQCustomTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQCustomTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047543C520C6749C0023B44E /* FQCustomTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQCustomTextFieldTests.m; sourceTree = "<group>"; };
+		047543C720C6749C0023B44E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047543CC20C6749C0023B44E /* FQCustomTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQCustomTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047543D020C6749C0023B44E /* FQCustomTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQCustomTextFieldUITests.m; sourceTree = "<group>"; };
+		047543D220C6749C0023B44E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0475442020C683930023B44E /* UIView+FQTextInputKeyBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FQTextInputKeyBoard.h"; sourceTree = "<group>"; };
+		0475442120C683930023B44E /* UIView+FQTextInputKeyBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FQTextInputKeyBoard.m"; sourceTree = "<group>"; };
+		0475442F20C68D6A0023B44E /* FQConfigDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQConfigDefine.h; sourceTree = "<group>"; };
+		0475443020C6914C0023B44E /* UIView+FQFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FQFrame.h"; sourceTree = "<group>"; };
+		0475443120C6914C0023B44E /* UIView+FQFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FQFrame.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047543A620C6749B0023B44E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047543BE20C6749C0023B44E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047543C920C6749C0023B44E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047543A020C6749B0023B44E = {
+			isa = PBXGroup;
+			children = (
+				047543AB20C6749B0023B44E /* FQCustomTextField */,
+				047543C420C6749C0023B44E /* FQCustomTextFieldTests */,
+				047543CF20C6749C0023B44E /* FQCustomTextFieldUITests */,
+				047543AA20C6749B0023B44E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		047543AA20C6749B0023B44E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047543A920C6749B0023B44E /* FQCustomTextField.app */,
+				047543C120C6749C0023B44E /* FQCustomTextFieldTests.xctest */,
+				047543CC20C6749C0023B44E /* FQCustomTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047543AB20C6749B0023B44E /* FQCustomTextField */ = {
+			isa = PBXGroup;
+			children = (
+				0475441C20C678DF0023B44E /* FQCustomTextField */,
+				047543AC20C6749B0023B44E /* AppDelegate.h */,
+				047543AD20C6749B0023B44E /* AppDelegate.m */,
+				047543AF20C6749B0023B44E /* ViewController.h */,
+				047543B020C6749B0023B44E /* ViewController.m */,
+				047543B220C6749B0023B44E /* Main.storyboard */,
+				047543B520C6749C0023B44E /* Assets.xcassets */,
+				047543B720C6749C0023B44E /* LaunchScreen.storyboard */,
+				047543BA20C6749C0023B44E /* Info.plist */,
+				047543BB20C6749C0023B44E /* main.m */,
+			);
+			path = FQCustomTextField;
+			sourceTree = "<group>";
+		};
+		047543C420C6749C0023B44E /* FQCustomTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				047543C520C6749C0023B44E /* FQCustomTextFieldTests.m */,
+				047543C720C6749C0023B44E /* Info.plist */,
+			);
+			path = FQCustomTextFieldTests;
+			sourceTree = "<group>";
+		};
+		047543CF20C6749C0023B44E /* FQCustomTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				047543D020C6749C0023B44E /* FQCustomTextFieldUITests.m */,
+				047543D220C6749C0023B44E /* Info.plist */,
+			);
+			path = FQCustomTextFieldUITests;
+			sourceTree = "<group>";
+		};
+		0475441C20C678DF0023B44E /* FQCustomTextField */ = {
+			isa = PBXGroup;
+			children = (
+				045BD94920C772310032B095 /* UITextField+FQCustomTextField.h */,
+				045BD94A20C772310032B095 /* UITextField+FQCustomTextField.m */,
+				0475442020C683930023B44E /* UIView+FQTextInputKeyBoard.h */,
+				0475442120C683930023B44E /* UIView+FQTextInputKeyBoard.m */,
+				0475442F20C68D6A0023B44E /* FQConfigDefine.h */,
+				0475443020C6914C0023B44E /* UIView+FQFrame.h */,
+				0475443120C6914C0023B44E /* UIView+FQFrame.m */,
+			);
+			path = FQCustomTextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047543A820C6749B0023B44E /* FQCustomTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047543D520C6749C0023B44E /* Build configuration list for PBXNativeTarget "FQCustomTextField" */;
+			buildPhases = (
+				047543A520C6749B0023B44E /* Sources */,
+				047543A620C6749B0023B44E /* Frameworks */,
+				047543A720C6749B0023B44E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FQCustomTextField;
+			productName = FQCustomTextField;
+			productReference = 047543A920C6749B0023B44E /* FQCustomTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		047543C020C6749C0023B44E /* FQCustomTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047543D820C6749C0023B44E /* Build configuration list for PBXNativeTarget "FQCustomTextFieldTests" */;
+			buildPhases = (
+				047543BD20C6749C0023B44E /* Sources */,
+				047543BE20C6749C0023B44E /* Frameworks */,
+				047543BF20C6749C0023B44E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047543C320C6749C0023B44E /* PBXTargetDependency */,
+			);
+			name = FQCustomTextFieldTests;
+			productName = FQCustomTextFieldTests;
+			productReference = 047543C120C6749C0023B44E /* FQCustomTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		047543CB20C6749C0023B44E /* FQCustomTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047543DB20C6749C0023B44E /* Build configuration list for PBXNativeTarget "FQCustomTextFieldUITests" */;
+			buildPhases = (
+				047543C820C6749C0023B44E /* Sources */,
+				047543C920C6749C0023B44E /* Frameworks */,
+				047543CA20C6749C0023B44E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047543CE20C6749C0023B44E /* PBXTargetDependency */,
+			);
+			name = FQCustomTextFieldUITests;
+			productName = FQCustomTextFieldUITests;
+			productReference = 047543CC20C6749C0023B44E /* FQCustomTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047543A120C6749B0023B44E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					047543A820C6749B0023B44E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					047543C020C6749C0023B44E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 047543A820C6749B0023B44E;
+					};
+					047543CB20C6749C0023B44E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 047543A820C6749B0023B44E;
+					};
+				};
+			};
+			buildConfigurationList = 047543A420C6749B0023B44E /* Build configuration list for PBXProject "FQCustomTextField" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047543A020C6749B0023B44E;
+			productRefGroup = 047543AA20C6749B0023B44E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047543A820C6749B0023B44E /* FQCustomTextField */,
+				047543C020C6749C0023B44E /* FQCustomTextFieldTests */,
+				047543CB20C6749C0023B44E /* FQCustomTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047543A720C6749B0023B44E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047543B920C6749C0023B44E /* LaunchScreen.storyboard in Resources */,
+				047543B620C6749C0023B44E /* Assets.xcassets in Resources */,
+				047543B420C6749B0023B44E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047543BF20C6749C0023B44E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047543CA20C6749C0023B44E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047543A520C6749B0023B44E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047543B120C6749B0023B44E /* ViewController.m in Sources */,
+				0475443220C6914C0023B44E /* UIView+FQFrame.m in Sources */,
+				047543BC20C6749C0023B44E /* main.m in Sources */,
+				047543AE20C6749B0023B44E /* AppDelegate.m in Sources */,
+				0475442220C683930023B44E /* UIView+FQTextInputKeyBoard.m in Sources */,
+				045BD94B20C772310032B095 /* UITextField+FQCustomTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047543BD20C6749C0023B44E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047543C620C6749C0023B44E /* FQCustomTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047543C820C6749C0023B44E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047543D120C6749C0023B44E /* FQCustomTextFieldUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		047543C320C6749C0023B44E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047543A820C6749B0023B44E /* FQCustomTextField */;
+			targetProxy = 047543C220C6749C0023B44E /* PBXContainerItemProxy */;
+		};
+		047543CE20C6749C0023B44E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047543A820C6749B0023B44E /* FQCustomTextField */;
+			targetProxy = 047543CD20C6749C0023B44E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		047543B220C6749B0023B44E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047543B320C6749B0023B44E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		047543B720C6749C0023B44E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047543B820C6749C0023B44E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		047543D320C6749C0023B44E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		047543D420C6749C0023B44E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047543D620C6749C0023B44E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = FQCustomTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQCustomTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		047543D720C6749C0023B44E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = FQCustomTextField/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQCustomTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		047543D920C6749C0023B44E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = FQCustomTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQCustomTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FQCustomTextField.app/FQCustomTextField";
+			};
+			name = Debug;
+		};
+		047543DA20C6749C0023B44E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = FQCustomTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQCustomTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FQCustomTextField.app/FQCustomTextField";
+			};
+			name = Release;
+		};
+		047543DC20C6749C0023B44E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = FQCustomTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQCustomTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FQCustomTextField;
+			};
+			name = Debug;
+		};
+		047543DD20C6749C0023B44E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = FQCustomTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQCustomTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FQCustomTextField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047543A420C6749B0023B44E /* Build configuration list for PBXProject "FQCustomTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047543D320C6749C0023B44E /* Debug */,
+				047543D420C6749C0023B44E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047543D520C6749C0023B44E /* Build configuration list for PBXNativeTarget "FQCustomTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047543D620C6749C0023B44E /* Debug */,
+				047543D720C6749C0023B44E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047543D820C6749C0023B44E /* Build configuration list for PBXNativeTarget "FQCustomTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047543D920C6749C0023B44E /* Debug */,
+				047543DA20C6749C0023B44E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047543DB20C6749C0023B44E /* Build configuration list for PBXNativeTarget "FQCustomTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047543DC20C6749C0023B44E /* Debug */,
+				047543DD20C6749C0023B44E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047543A120C6749B0023B44E /* Project object */;
+}
