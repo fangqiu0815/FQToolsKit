@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044693F620C8D6A100F24625 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 044693F520C8D6A100F24625 /* AppDelegate.m */; };
+		044693F920C8D6A100F24625 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044693F820C8D6A100F24625 /* ViewController.m */; };
+		044693FC20C8D6A100F24625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044693FA20C8D6A100F24625 /* Main.storyboard */; };
+		044693FE20C8D6A400F24625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044693FD20C8D6A400F24625 /* Assets.xcassets */; };
+		0446940120C8D6A400F24625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044693FF20C8D6A400F24625 /* LaunchScreen.storyboard */; };
+		0446940420C8D6A400F24625 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0446940320C8D6A400F24625 /* main.m */; };
+		0446940E20C8D6A500F24625 /* FQExcelViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0446940D20C8D6A500F24625 /* FQExcelViewDemoTests.m */; };
+		0446941920C8D6A500F24625 /* FQExcelViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0446941820C8D6A500F24625 /* FQExcelViewDemoUITests.m */; };
+		0446942920C8D74300F24625 /* FQExcelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0446942820C8D74300F24625 /* FQExcelView.m */; };
+		0446942C20C8D77100F24625 /* UILabel+FitWidthAndHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 0446942B20C8D77100F24625 /* UILabel+FitWidthAndHeight.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0446940A20C8D6A500F24625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044693E920C8D6A100F24625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044693F020C8D6A100F24625;
+			remoteInfo = FQExcelViewDemo;
+		};
+		0446941520C8D6A500F24625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044693E920C8D6A100F24625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044693F020C8D6A100F24625;
+			remoteInfo = FQExcelViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044693F120C8D6A100F24625 /* FQExcelViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FQExcelViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		044693F420C8D6A100F24625 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		044693F520C8D6A100F24625 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		044693F720C8D6A100F24625 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		044693F820C8D6A100F24625 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		044693FB20C8D6A100F24625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044693FD20C8D6A400F24625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0446940020C8D6A400F24625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0446940220C8D6A400F24625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0446940320C8D6A400F24625 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0446940920C8D6A500F24625 /* FQExcelViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQExcelViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0446940D20C8D6A500F24625 /* FQExcelViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQExcelViewDemoTests.m; sourceTree = "<group>"; };
+		0446940F20C8D6A500F24625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0446941420C8D6A500F24625 /* FQExcelViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQExcelViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0446941820C8D6A500F24625 /* FQExcelViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQExcelViewDemoUITests.m; sourceTree = "<group>"; };
+		0446941A20C8D6A500F24625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0446942720C8D74300F24625 /* FQExcelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQExcelView.h; sourceTree = "<group>"; };
+		0446942820C8D74300F24625 /* FQExcelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQExcelView.m; sourceTree = "<group>"; };
+		0446942A20C8D77100F24625 /* UILabel+FitWidthAndHeight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+FitWidthAndHeight.h"; sourceTree = "<group>"; };
+		0446942B20C8D77100F24625 /* UILabel+FitWidthAndHeight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FitWidthAndHeight.m"; sourceTree = "<group>"; };
+		0446942D20C8D78D00F24625 /* FQExcelViewConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQExcelViewConfig.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044693EE20C8D6A100F24625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0446940620C8D6A500F24625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0446941120C8D6A500F24625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044693E820C8D6A100F24625 = {
+			isa = PBXGroup;
+			children = (
+				044693F320C8D6A100F24625 /* FQExcelViewDemo */,
+				0446940C20C8D6A500F24625 /* FQExcelViewDemoTests */,
+				0446941720C8D6A500F24625 /* FQExcelViewDemoUITests */,
+				044693F220C8D6A100F24625 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		044693F220C8D6A100F24625 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044693F120C8D6A100F24625 /* FQExcelViewDemo.app */,
+				0446940920C8D6A500F24625 /* FQExcelViewDemoTests.xctest */,
+				0446941420C8D6A500F24625 /* FQExcelViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044693F320C8D6A100F24625 /* FQExcelViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0446942620C8D71300F24625 /* FQExcelView */,
+				044693F420C8D6A100F24625 /* AppDelegate.h */,
+				044693F520C8D6A100F24625 /* AppDelegate.m */,
+				044693F720C8D6A100F24625 /* ViewController.h */,
+				044693F820C8D6A100F24625 /* ViewController.m */,
+				044693FA20C8D6A100F24625 /* Main.storyboard */,
+				044693FD20C8D6A400F24625 /* Assets.xcassets */,
+				044693FF20C8D6A400F24625 /* LaunchScreen.storyboard */,
+				0446940220C8D6A400F24625 /* Info.plist */,
+				0446940320C8D6A400F24625 /* main.m */,
+			);
+			path = FQExcelViewDemo;
+			sourceTree = "<group>";
+		};
+		0446940C20C8D6A500F24625 /* FQExcelViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0446940D20C8D6A500F24625 /* FQExcelViewDemoTests.m */,
+				0446940F20C8D6A500F24625 /* Info.plist */,
+			);
+			path = FQExcelViewDemoTests;
+			sourceTree = "<group>";
+		};
+		0446941720C8D6A500F24625 /* FQExcelViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0446941820C8D6A500F24625 /* FQExcelViewDemoUITests.m */,
+				0446941A20C8D6A500F24625 /* Info.plist */,
+			);
+			path = FQExcelViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		0446942620C8D71300F24625 /* FQExcelView */ = {
+			isa = PBXGroup;
+			children = (
+				0446942D20C8D78D00F24625 /* FQExcelViewConfig.h */,
+				0446942720C8D74300F24625 /* FQExcelView.h */,
+				0446942820C8D74300F24625 /* FQExcelView.m */,
+				0446942A20C8D77100F24625 /* UILabel+FitWidthAndHeight.h */,
+				0446942B20C8D77100F24625 /* UILabel+FitWidthAndHeight.m */,
+			);
+			path = FQExcelView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044693F020C8D6A100F24625 /* FQExcelViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0446941D20C8D6A500F24625 /* Build configuration list for PBXNativeTarget "FQExcelViewDemo" */;
+			buildPhases = (
+				044693ED20C8D6A100F24625 /* Sources */,
+				044693EE20C8D6A100F24625 /* Frameworks */,
+				044693EF20C8D6A100F24625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FQExcelViewDemo;
+			productName = FQExcelViewDemo;
+			productReference = 044693F120C8D6A100F24625 /* FQExcelViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0446940820C8D6A500F24625 /* FQExcelViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0446942020C8D6A500F24625 /* Build configuration list for PBXNativeTarget "FQExcelViewDemoTests" */;
+			buildPhases = (
+				0446940520C8D6A500F24625 /* Sources */,
+				0446940620C8D6A500F24625 /* Frameworks */,
+				0446940720C8D6A500F24625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0446940B20C8D6A500F24625 /* PBXTargetDependency */,
+			);
+			name = FQExcelViewDemoTests;
+			productName = FQExcelViewDemoTests;
+			productReference = 0446940920C8D6A500F24625 /* FQExcelViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0446941320C8D6A500F24625 /* FQExcelViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0446942320C8D6A500F24625 /* Build configuration list for PBXNativeTarget "FQExcelViewDemoUITests" */;
+			buildPhases = (
+				0446941020C8D6A500F24625 /* Sources */,
+				0446941120C8D6A500F24625 /* Frameworks */,
+				0446941220C8D6A500F24625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0446941620C8D6A500F24625 /* PBXTargetDependency */,
+			);
+			name = FQExcelViewDemoUITests;
+			productName = FQExcelViewDemoUITests;
+			productReference = 0446941420C8D6A500F24625 /* FQExcelViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044693E920C8D6A100F24625 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					044693F020C8D6A100F24625 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					0446940820C8D6A500F24625 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 044693F020C8D6A100F24625;
+					};
+					0446941320C8D6A500F24625 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 044693F020C8D6A100F24625;
+					};
+				};
+			};
+			buildConfigurationList = 044693EC20C8D6A100F24625 /* Build configuration list for PBXProject "FQExcelViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044693E820C8D6A100F24625;
+			productRefGroup = 044693F220C8D6A100F24625 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044693F020C8D6A100F24625 /* FQExcelViewDemo */,
+				0446940820C8D6A500F24625 /* FQExcelViewDemoTests */,
+				0446941320C8D6A500F24625 /* FQExcelViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044693EF20C8D6A100F24625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0446940120C8D6A400F24625 /* LaunchScreen.storyboard in Resources */,
+				044693FE20C8D6A400F24625 /* Assets.xcassets in Resources */,
+				044693FC20C8D6A100F24625 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0446940720C8D6A500F24625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0446941220C8D6A500F24625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044693ED20C8D6A100F24625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044693F920C8D6A100F24625 /* ViewController.m in Sources */,
+				0446942C20C8D77100F24625 /* UILabel+FitWidthAndHeight.m in Sources */,
+				0446940420C8D6A400F24625 /* main.m in Sources */,
+				044693F620C8D6A100F24625 /* AppDelegate.m in Sources */,
+				0446942920C8D74300F24625 /* FQExcelView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0446940520C8D6A500F24625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0446940E20C8D6A500F24625 /* FQExcelViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0446941020C8D6A500F24625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0446941920C8D6A500F24625 /* FQExcelViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0446940B20C8D6A500F24625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044693F020C8D6A100F24625 /* FQExcelViewDemo */;
+			targetProxy = 0446940A20C8D6A500F24625 /* PBXContainerItemProxy */;
+		};
+		0446941620C8D6A500F24625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044693F020C8D6A100F24625 /* FQExcelViewDemo */;
+			targetProxy = 0446941520C8D6A500F24625 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		044693FA20C8D6A100F24625 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044693FB20C8D6A100F24625 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		044693FF20C8D6A400F24625 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0446940020C8D6A400F24625 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0446941B20C8D6A500F24625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0446941C20C8D6A500F24625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0446941E20C8D6A500F24625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = FQExcelViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQExcelViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0446941F20C8D6A500F24625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = FQExcelViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQExcelViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0446942120C8D6A500F24625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = FQExcelViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQExcelViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FQExcelViewDemo.app/FQExcelViewDemo";
+			};
+			name = Debug;
+		};
+		0446942220C8D6A500F24625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = FQExcelViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQExcelViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FQExcelViewDemo.app/FQExcelViewDemo";
+			};
+			name = Release;
+		};
+		0446942420C8D6A500F24625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = FQExcelViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQExcelViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FQExcelViewDemo;
+			};
+			name = Debug;
+		};
+		0446942520C8D6A500F24625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = FQExcelViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQExcelViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FQExcelViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044693EC20C8D6A100F24625 /* Build configuration list for PBXProject "FQExcelViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0446941B20C8D6A500F24625 /* Debug */,
+				0446941C20C8D6A500F24625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0446941D20C8D6A500F24625 /* Build configuration list for PBXNativeTarget "FQExcelViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0446941E20C8D6A500F24625 /* Debug */,
+				0446941F20C8D6A500F24625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0446942020C8D6A500F24625 /* Build configuration list for PBXNativeTarget "FQExcelViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0446942120C8D6A500F24625 /* Debug */,
+				0446942220C8D6A500F24625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0446942320C8D6A500F24625 /* Build configuration list for PBXNativeTarget "FQExcelViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0446942420C8D6A500F24625 /* Debug */,
+				0446942520C8D6A500F24625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044693E920C8D6A100F24625 /* Project object */;
+}
