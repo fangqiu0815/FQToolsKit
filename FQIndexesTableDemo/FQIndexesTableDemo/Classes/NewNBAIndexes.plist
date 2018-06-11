@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>A</string>
+		<key>items</key>
+		<array>
+            <dict>
+                <key>name</key>
+                <string>Atlanta Hawks</string>
+                <key>icon</key>
+                <string>1</string>
+            </dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>B</string>
+		<key>items</key>
+		<array>
+            <dict>
+                <key>name</key>
+                <string>Boston Celtics</string>
+                <key>icon</key>
+                <string>2</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Brooklyn Nets</string>
+                <key>icon</key>
+                <string>17</string>
+            </dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>C</string>
+		<key>items</key>
+		<array>
+            <dict>
+                <key>name</key>
+                <string>Charlotte Bobcats</string>
+                <key>icon</key>
+                <string>30</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Chicago Bulls</string>
+                <key>icon</key>
+                <string>4</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Cleveland Cavaliers</string>
+                <key>icon</key>
+                <string>12</string>
+            </dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>D</string>
+		<key>items</key>
+		<array>
+            <dict>
+                <key>name</key>
+                <string>Dallas Mavericks</string>
+                <key>icon</key>
+                <string>6</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Denver Nuggets</string>
+                <key>icon</key>
+                <string>7</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Detroit Pistons</string>
+                <key>icon</key>
+                <string>8</string>
+            </dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>G</string>
+		<key>items</key>
+		<array>
+            <dict>
+                <key>name</key>
+                <string>Golden State Warriors</string>
+                <key>icon</key>
+                <string>9</string>
+            </dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>H</string>
+		<key>items</key>
+		<array>
+            <dict>
+                <key>name</key>
+                <string>Houston Rockets</string>
+                <key>icon</key>
+                <string>10</string>
+            </dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>I</string>
+		<key>items</key>
+		<array>
+            <dict>
+                <key>name</key>
+                <string>Indiana Pacers</string>
+                <key>icon</key>
+                <string>11</string>
+            </dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>L</string>
+		<key>items</key>
+		<array>
+            <dict>
+                <key>name</key>
+                <string>Los Angeles Clippers</string>
+                <key>icon</key>
+                <string>5</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Los Angeles Lakers</string>
+                <key>icon</key>
+                <string>13</string>
+            </dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>M</string>
+		<key>items</key>
+		<array>
+            <dict>
+                <key>name</key>
+                <string>Memphis Grizzlies</string>
+                <key>icon</key>
+                <string>29</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Miami Heat</string>
+                <key>icon</key>
+                <string>14</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Milwaukee Bucks</string>
+                <key>icon</key>
+                <string>15</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Minnesota Timberwolves</string>
+                <key>icon</key>
+                <string>16</string>
+            </dict>
+            
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>N</string>
+		<key>items</key>
+		<array>
+            <dict>
+                <key>name</key>
+                <string>New Orleans Pelicans</string>
+                <key>icon</key>
+                <string>3</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>New York Knicks</string>
+                <key>icon</key>
+                <string>18</string>
+            </dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>O</string>
+		<key>items</key>
+		<array>
+            <dict>
+                <key>name</key>
+                <string>Oklahoma City Thunder</string>
+                <key>icon</key>
+                <string>25</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Orlando Magic</string>
+                <key>icon</key>
+                <string>19</string>
+            </dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>P</string>
+		<key>items</key>
+		<array>
+            <dict>
+                <key>name</key>
+                <string>Philadelphia 76ers</string>
+                <key>icon</key>
+                <string>20</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Phoenix Suns</string>
+                <key>icon</key>
+                <string>21</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Portland Trail Blazers</string>
+                <key>icon</key>
+                <string>22</string>
+            </dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>S</string>
+		<key>items</key>
+		<array>
+            <dict>
+                <key>name</key>
+                <string>Sacramento Kings</string>
+                <key>icon</key>
+                <string>23</string>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>San Antonio Spurs</string>
+                <key>icon</key>
+                <string>24</string>
+            </dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>T</string>
+		<key>items</key>
+		<array>
+            <dict>
+                <key>name</key>
+                <string>Toronto Raptors</string>
+                <key>icon</key>
+                <string>28</string>
+            </dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>U</string>
+		<key>items</key>
+		<array>
+            <dict>
+                <key>name</key>
+                <string>Utah Jazz</string>
+                <key>icon</key>
+                <string>26</string>
+            </dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>W</string>
+		<key>items</key>
+		<array>
+            <dict>
+                <key>name</key>
+                <string>Washington Wizards</string>
+                <key>icon</key>
+                <string>27</string>
+            </dict>
+		</array>
+	</dict>
+</array>
+</plist>

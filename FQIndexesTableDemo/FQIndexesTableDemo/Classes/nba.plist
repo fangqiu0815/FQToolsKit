@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Atlanta Hawks</key>
+	<string>http://www.nba.com/hawks/</string>
+	<key>Boston Celtics</key>
+	<string>http://www.nba.com/celtics/</string>
+	<key>Brooklyn Nets</key>
+	<string>http://www.nba.com/nets/</string>
+	<key>Charlotte Bobcats</key>
+	<string>http://www.nba.com/bobcats/</string>
+	<key>Chicago Bulls</key>
+	<string>http://www.nba.com/bulls/</string>
+	<key>Cleveland Cavaliers</key>
+	<string>http://www.nba.com/cavaliers/</string>
+	<key>Dallas Mavericks</key>
+	<string>http://www.mavs.com/</string>
+	<key>Denver Nuggets</key>
+	<string>http://www.nba.com/nuggets/</string>
+	<key>Detroit Pistons</key>
+	<string>http://www.nba.com/pistons/</string>
+	<key>Golden State Warriors</key>
+	<string>http://www.nba.com/warriors/</string>
+	<key>Houston Rockets</key>
+	<string>http://www.nba.com/rockets/</string>
+	<key>Indiana Pacers</key>
+	<string>http://www.nba.com/pacers/</string>
+	<key>Los Angeles Clippers</key>
+	<string>http://www.nba.com/clippers/</string>
+	<key>Los Angeles Lakers</key>
+	<string>http://www.nba.com/lakers/</string>
+	<key>Memphis Grizzlies</key>
+	<string>http://www.nba.com/grizzlies/</string>
+	<key>Miami Heat</key>
+	<string>http://www.nba.com/heat/</string>
+	<key>Milwaukee Bucks</key>
+	<string>http://www.nba.com/bucks/</string>
+	<key>Minnesota Timberwolves</key>
+	<string>http://www.nba.com/timberwolves/</string>
+	<key>New Orleans Pelicans</key>
+	<string>http://www.nba.com/pelicans/</string>
+	<key>New York Knicks</key>
+	<string>http://www.nba.com/knicks/</string>
+	<key>Oklahoma City Thunder</key>
+	<string>http://www.nba.com/thunder/</string>
+	<key>Orlando Magic</key>
+	<string>http://www.nba.com/magic/</string>
+	<key>Philadelphia 76ers</key>
+	<string>http://www.nba.com/sixers/</string>
+	<key>Phoenix Suns</key>
+	<string>http://www.nba.com/suns/</string>
+	<key>Portland Trail Blazers</key>
+	<string>http://www.nba.com/blazers/</string>
+	<key>Sacramento Kings</key>
+	<string>http://www.nba.com/kings/</string>
+	<key>San Antonio Spurs</key>
+	<string>http://www.nba.com/spurs/</string>
+	<key>Toronto Raptors</key>
+	<string>http://www.nba.com/raptors/</string>
+	<key>Utah Jazz</key>
+	<string>http://www.nba.com/jazz/</string>
+	<key>Washington Wizards</key>
+	<string>http://www.nba.com/wizards/</string>
+</dict>
+</plist>
