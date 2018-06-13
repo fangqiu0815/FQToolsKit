@@ -14,9 +14,11 @@
 
 // category
 #import "UIView+Frame.h"
+#import "UIImage+Extension.h"
 
 
 //lib
+#import "HMSegmentedControl.h"
 
 
 // base

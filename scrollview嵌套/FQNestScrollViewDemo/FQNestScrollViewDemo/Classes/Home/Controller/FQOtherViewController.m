@@ -16,7 +16,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    self.title = @"other";
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    UILabel *label = [[UILabel alloc]init];
+    label.text = @"👌😁😈😁";
+    label.textAlignment = NSTextAlignmentCenter;
+    label.textColor = [UIColor blackColor];
+    [self.view addSubview:label];
+    [label mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.center.mas_equalTo(self.view);
+        make.size.mas_equalTo(CGSizeMake(120, 40));
+    }];
+    
 }
 
 - (void)didReceiveMemoryWarning {

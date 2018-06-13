@@ -18,6 +18,16 @@
 		04E2F2D120D1049200E397E6 /* FQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2F2D020D1049200E397E6 /* FQHomeViewController.m */; };
 		04E2F2D420D104AE00E397E6 /* FQOtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2F2D320D104AE00E397E6 /* FQOtherViewController.m */; };
 		04E2F2D820D1057200E397E6 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2F2D620D1057200E397E6 /* UIView+Frame.m */; };
+		04E2F2DF20D118F900E397E6 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2F2DE20D118F900E397E6 /* HMSegmentedControl.m */; };
+		04E2F2E220D1194200E397E6 /* FQOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2F2E120D1194200E397E6 /* FQOneViewController.m */; };
+		04E2F2E520D1194F00E397E6 /* FQTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2F2E420D1194F00E397E6 /* FQTwoViewController.m */; };
+		04E2F2E820D1195B00E397E6 /* FQThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2F2E720D1195B00E397E6 /* FQThreeViewController.m */; };
+		04E2F2EB20D11D6000E397E6 /* FQCustomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2F2EA20D11D6000E397E6 /* FQCustomTableView.m */; };
+		04E2F2EE20D11D7E00E397E6 /* FQSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2F2ED20D11D7E00E397E6 /* FQSectionView.m */; };
+		04E2F2F220D120A100E397E6 /* FQHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2F2F120D120A100E397E6 /* FQHeaderCell.m */; };
+		04E2F2F520D120B800E397E6 /* FQHeaderOtherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2F2F420D120B800E397E6 /* FQHeaderOtherCell.m */; };
+		04E2F2F820D120CA00E397E6 /* FQHeaderContainerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2F2F720D120CA00E397E6 /* FQHeaderContainerCell.m */; };
+		04E2F2FB20D1225900E397E6 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2F2F920D1225900E397E6 /* UIImage+Extension.m */; };
 		6B9D26FEAF2D955D52117754 /* libPods-FQNestScrollViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B465553646D53AC8105FFB /* libPods-FQNestScrollViewDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +73,26 @@
 		04E2F2D520D104E700E397E6 /* FQCustomComon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQCustomComon.h; sourceTree = "<group>"; };
 		04E2F2D620D1057200E397E6 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		04E2F2D720D1057200E397E6 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		04E2F2DD20D118F900E397E6 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		04E2F2DE20D118F900E397E6 /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
+		04E2F2E020D1194200E397E6 /* FQOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQOneViewController.h; sourceTree = "<group>"; };
+		04E2F2E120D1194200E397E6 /* FQOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQOneViewController.m; sourceTree = "<group>"; };
+		04E2F2E320D1194F00E397E6 /* FQTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQTwoViewController.h; sourceTree = "<group>"; };
+		04E2F2E420D1194F00E397E6 /* FQTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQTwoViewController.m; sourceTree = "<group>"; };
+		04E2F2E620D1195B00E397E6 /* FQThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQThreeViewController.h; sourceTree = "<group>"; };
+		04E2F2E720D1195B00E397E6 /* FQThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQThreeViewController.m; sourceTree = "<group>"; };
+		04E2F2E920D11D6000E397E6 /* FQCustomTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQCustomTableView.h; sourceTree = "<group>"; };
+		04E2F2EA20D11D6000E397E6 /* FQCustomTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQCustomTableView.m; sourceTree = "<group>"; };
+		04E2F2EC20D11D7E00E397E6 /* FQSectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQSectionView.h; sourceTree = "<group>"; };
+		04E2F2ED20D11D7E00E397E6 /* FQSectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQSectionView.m; sourceTree = "<group>"; };
+		04E2F2F020D120A100E397E6 /* FQHeaderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQHeaderCell.h; sourceTree = "<group>"; };
+		04E2F2F120D120A100E397E6 /* FQHeaderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQHeaderCell.m; sourceTree = "<group>"; };
+		04E2F2F320D120B800E397E6 /* FQHeaderOtherCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQHeaderOtherCell.h; sourceTree = "<group>"; };
+		04E2F2F420D120B800E397E6 /* FQHeaderOtherCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQHeaderOtherCell.m; sourceTree = "<group>"; };
+		04E2F2F620D120CA00E397E6 /* FQHeaderContainerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQHeaderContainerCell.h; sourceTree = "<group>"; };
+		04E2F2F720D120CA00E397E6 /* FQHeaderContainerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQHeaderContainerCell.m; sourceTree = "<group>"; };
+		04E2F2F920D1225900E397E6 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		04E2F2FA20D1225900E397E6 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
 		43B465553646D53AC8105FFB /* libPods-FQNestScrollViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FQNestScrollViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B6B90D2214C89D8D568635 /* Pods-FQNestScrollViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQNestScrollViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FQNestScrollViewDemo/Pods-FQNestScrollViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E54AF5A6D73BDA5CD9E4C398 /* Pods-FQNestScrollViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQNestScrollViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FQNestScrollViewDemo/Pods-FQNestScrollViewDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				04E2F2BF20D1002100E397E6 /* Home */,
-				04E2F2C320D1002100E397E6 /* Main */,
+				04E2F2C320D1002100E397E6 /* Child */,
 				04E2F2C720D1002100E397E6 /* Other */,
 			);
 			path = Classes;
@@ -193,23 +223,34 @@
 		04E2F2C220D1002100E397E6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				04E2F2EF20D11FF800E397E6 /* Cell */,
+				04E2F2E920D11D6000E397E6 /* FQCustomTableView.h */,
+				04E2F2EA20D11D6000E397E6 /* FQCustomTableView.m */,
+				04E2F2EC20D11D7E00E397E6 /* FQSectionView.h */,
+				04E2F2ED20D11D7E00E397E6 /* FQSectionView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		04E2F2C320D1002100E397E6 /* Main */ = {
+		04E2F2C320D1002100E397E6 /* Child */ = {
 			isa = PBXGroup;
 			children = (
 				04E2F2C420D1002100E397E6 /* Controller */,
 				04E2F2C520D1002100E397E6 /* Model */,
 				04E2F2C620D1002100E397E6 /* View */,
 			);
-			path = Main;
+			path = Child;
 			sourceTree = "<group>";
 		};
 		04E2F2C420D1002100E397E6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				04E2F2E020D1194200E397E6 /* FQOneViewController.h */,
+				04E2F2E120D1194200E397E6 /* FQOneViewController.m */,
+				04E2F2E320D1194F00E397E6 /* FQTwoViewController.h */,
+				04E2F2E420D1194F00E397E6 /* FQTwoViewController.m */,
+				04E2F2E620D1195B00E397E6 /* FQThreeViewController.h */,
+				04E2F2E720D1195B00E397E6 /* FQThreeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -244,6 +285,8 @@
 		04E2F2C820D1002100E397E6 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				04E2F2FA20D1225900E397E6 /* UIImage+Extension.h */,
+				04E2F2F920D1225900E397E6 /* UIImage+Extension.m */,
 				04E2F2D720D1057200E397E6 /* UIView+Frame.h */,
 				04E2F2D620D1057200E397E6 /* UIView+Frame.m */,
 			);
@@ -260,6 +303,7 @@
 		04E2F2CA20D1002100E397E6 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				04E2F2DC20D118F900E397E6 /* HMSegmentedControl */,
 			);
 			path = Libs;
 			sourceTree = "<group>";
@@ -284,6 +328,28 @@
 				04E2F2D520D104E700E397E6 /* FQCustomComon.h */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		04E2F2DC20D118F900E397E6 /* HMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				04E2F2DD20D118F900E397E6 /* HMSegmentedControl.h */,
+				04E2F2DE20D118F900E397E6 /* HMSegmentedControl.m */,
+			);
+			path = HMSegmentedControl;
+			sourceTree = "<group>";
+		};
+		04E2F2EF20D11FF800E397E6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04E2F2F020D120A100E397E6 /* FQHeaderCell.h */,
+				04E2F2F120D120A100E397E6 /* FQHeaderCell.m */,
+				04E2F2F320D120B800E397E6 /* FQHeaderOtherCell.h */,
+				04E2F2F420D120B800E397E6 /* FQHeaderOtherCell.m */,
+				04E2F2F620D120CA00E397E6 /* FQHeaderContainerCell.h */,
+				04E2F2F720D120CA00E397E6 /* FQHeaderContainerCell.m */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		418A18B98002D2AF3F3AA907 /* Pods */ = {
@@ -475,11 +541,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E2F2E220D1194200E397E6 /* FQOneViewController.m in Sources */,
 				04E2F2D820D1057200E397E6 /* UIView+Frame.m in Sources */,
 				04E2F2D420D104AE00E397E6 /* FQOtherViewController.m in Sources */,
 				04E2F2D120D1049200E397E6 /* FQHomeViewController.m in Sources */,
+				04E2F2F820D120CA00E397E6 /* FQHeaderContainerCell.m in Sources */,
+				04E2F2DF20D118F900E397E6 /* HMSegmentedControl.m in Sources */,
+				04E2F2EE20D11D7E00E397E6 /* FQSectionView.m in Sources */,
+				04E2F2FB20D1225900E397E6 /* UIImage+Extension.m in Sources */,
+				04E2F2F220D120A100E397E6 /* FQHeaderCell.m in Sources */,
 				04E2F29120D0FDF100E397E6 /* ViewController.m in Sources */,
+				04E2F2F520D120B800E397E6 /* FQHeaderOtherCell.m in Sources */,
+				04E2F2EB20D11D6000E397E6 /* FQCustomTableView.m in Sources */,
 				04E2F29C20D0FDF800E397E6 /* main.m in Sources */,
+				04E2F2E520D1194F00E397E6 /* FQTwoViewController.m in Sources */,
+				04E2F2E820D1195B00E397E6 /* FQThreeViewController.m in Sources */,
 				04E2F28E20D0FDF100E397E6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
