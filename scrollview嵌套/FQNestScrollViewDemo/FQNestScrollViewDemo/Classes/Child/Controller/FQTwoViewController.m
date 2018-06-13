@@ -7,9 +7,8 @@
 //
 
 #import "FQTwoViewController.h"
-#import "FQOtherViewController.h"
 
-@interface FQTwoViewController ()
+@interface FQTwoViewController ()<UITableViewDelegate>
 
 @end
 
@@ -58,8 +57,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [self.navigationController pushViewController:[FQOtherViewController new] animated:YES];
-    
+    FQOtherViewController *new = [[FQOtherViewController alloc]init];
+    [self.navigationController pushViewController:new animated:YES];
 }
 
 /*

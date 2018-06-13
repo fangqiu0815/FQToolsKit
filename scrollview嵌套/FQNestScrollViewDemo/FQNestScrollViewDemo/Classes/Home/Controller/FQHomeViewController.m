@@ -79,11 +79,11 @@
 
 #pragma mark - YHDContainerCellDelegate
 
-- (void)mmtdOptionalScrollViewDidScroll:(UIScrollView *)scrollView {
+- (void)fq_containerOptionalScrollViewDidScroll:(UIScrollView *)scrollView {
     self.tableView.scrollEnabled = NO;
 }
 
-- (void)mmtdOptionalScrollViewDidEndDecelerating:(UIScrollView *)scrollView {
+- (void)fq_containerOptionalScrollViewDidEndDecelerating:(UIScrollView *)scrollView {
     NSUInteger page = scrollView.contentOffset.x/[UIScreen mainScreen].bounds.size.width;
     [self.sectionView.segmentControl setSelectedSegmentIndex:page animated:YES];
     
@@ -110,16 +110,20 @@
             // 海报
             FQHeaderCell *cell = [[FQHeaderCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"FQHeaderCell"];
             return cell;
+        }else{
+            // 简介
+            FQHeaderOtherCell *cell = [[FQHeaderOtherCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"FQHeaderOtherCell"];
+            return cell;
         }
-        // 简介
-        FQHeaderOtherCell *cell = [[FQHeaderOtherCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"FQHeaderOtherCell"];
-        return cell;
+        
+    }else{
+        //
+        FQHeaderContainerCell *containercell = [[FQHeaderContainerCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"FQHeaderContainerCell"];
+        self.containerCell = containercell;
+        containercell.delegate = self;
+        return containercell;
     }
-    //
-    FQHeaderContainerCell *containercell = [[FQHeaderContainerCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"FQHeaderContainerCell"];
-    self.containerCell = containercell;
-    containercell.delegate = self;
-    return containercell;
+    
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {

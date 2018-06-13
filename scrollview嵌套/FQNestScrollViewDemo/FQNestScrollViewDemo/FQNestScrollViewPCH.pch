@@ -13,5 +13,6 @@
 #import "FQCustomComon.h"
 #import <MJRefresh.h>
 #import <Masonry.h>
+#import "FQOtherViewController.h"
 
 #endif /* FQNestScrollViewPCH_pch */
