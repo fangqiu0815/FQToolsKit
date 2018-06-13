@@ -30,6 +30,7 @@
 		0449C5AF20C528580003C983 /* huba.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0449C5AE20C528580003C983 /* huba.jpeg */; };
 		0449C5B520C528990003C983 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449C5B220C528990003C983 /* UIImage+ImageEffects.m */; };
 		0449C5B620C528990003C983 /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449C5B420C528990003C983 /* UIImageView+LBBlurredImage.m */; };
+		04E2F2DB20D1080900E397E6 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2F2DA20D1080900E397E6 /* NewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,8 @@
 		0449C5B220C528990003C983 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		0449C5B320C528990003C983 /* UIImageView+LBBlurredImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LBBlurredImage.h"; sourceTree = "<group>"; };
 		0449C5B420C528990003C983 /* UIImageView+LBBlurredImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LBBlurredImage.m"; sourceTree = "<group>"; };
+		04E2F2D920D1080900E397E6 /* NewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		04E2F2DA20D1080900E397E6 /* NewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +169,8 @@
 				0449C55F20C516A80003C983 /* main.m */,
 				0449C5AB20C51E5C0003C983 /* FQHeadView.h */,
 				0449C5AC20C51E5C0003C983 /* FQHeadView.m */,
+				04E2F2D920D1080900E397E6 /* NewViewController.h */,
+				04E2F2DA20D1080900E397E6 /* NewViewController.m */,
 			);
 			path = FQPersonPageTest;
 			sourceTree = "<group>";
@@ -377,6 +382,7 @@
 				0449C5A520C519220003C983 /* ViewController+MASAdditions.m in Sources */,
 				0449C5A420C519220003C983 /* View+MASAdditions.m in Sources */,
 				0449C5A020C519220003C983 /* MASViewAttribute.m in Sources */,
+				04E2F2DB20D1080900E397E6 /* NewViewController.m in Sources */,
 				0449C59D20C519220003C983 /* MASConstraint.m in Sources */,
 				0449C59E20C519220003C983 /* MASConstraintMaker.m in Sources */,
 			);

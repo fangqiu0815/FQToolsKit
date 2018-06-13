@@ -1,14 +1,13 @@
 //
 //  AppDelegate.m
-//  FQPersonPageTest
+//  FQNestScrollViewDemo
 //
-//  Created by mac on 2018/6/4.
+//  Created by mac on 2018/6/13.
 //  Copyright © 2018年 mac. All rights reserved.
 //
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-#import "NewViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,7 +20,7 @@
 
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:[NewViewController new]];
+    UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:[ViewController new]];
     self.window.rootViewController = navi;
     [self.window makeKeyAndVisible];
 

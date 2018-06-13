@@ -29,6 +29,10 @@
 @property (nonatomic, strong) UILabel * pageTitle;
 @property (nonatomic, strong) UIView *view_bar;
 
+/** 返回 */
+@property (nonatomic, strong) UIButton * backBtn;
+
+
 @end
 
 @implementation ViewController
@@ -40,7 +44,6 @@
     
     [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
     self.navigationController.navigationBar.shadowImage = [UIImage new];
-
     
 }
 
@@ -53,10 +56,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.tableView addSubview:self.headView];
-    self.tableView.showsVerticalScrollIndicator = NO;
-    self.tableView.contentInset = UIEdgeInsetsMake(HeadViewHeight, 0, 0, 0);
-    [self.view addSubview:self.tableView];
+    FQHeadView *headView = [[FQHeadView alloc]init];
+    self.headView = headView;
+    headView.frame = CGRectMake(0, -HeadViewHeight, [UIScreen mainScreen].bounds.size.width, HeadViewHeight);
+    headView.backgroundColor = [UIColor whiteColor];
+    headView.contentMode = UIViewContentModeScaleAspectFill;
+    [self.tableView addSubview:headView];
     
     UIView *view_bar = [[UIView alloc]init];
     self.view_bar = view_bar;
@@ -70,13 +75,26 @@
     }];
     
     UIButton * meBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [meBtn setBackgroundImage:[UIImage imageNamed:@"推荐人-拷贝"] forState:UIControlStateNormal];
+    [meBtn setImage:[UIImage imageNamed:@"推荐人-拷贝"] forState:UIControlStateNormal];
     [meBtn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
     [view_bar addSubview:meBtn];
     [meBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.width.mas_equalTo(30);
         make.height.mas_equalTo(30);
         make.right.mas_equalTo(-20);
+        make.bottom.mas_equalTo(-11);
+    }];
+    
+    UIButton * backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    self.backBtn = backBtn;
+    [backBtn setTitle:@"返回" forState:0];
+    [backBtn setTitleColor:[UIColor whiteColor] forState:0];
+    [backBtn addTarget:self action:@selector(backclick) forControlEvents:UIControlEventTouchUpInside];
+    [view_bar addSubview:backBtn];
+    [backBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.width.mas_equalTo(60);
+        make.height.mas_equalTo(30);
+        make.left.mas_equalTo(20);
         make.bottom.mas_equalTo(-11);
     }];
     
@@ -90,6 +108,11 @@
         make.centerX.equalTo(view_bar);
     }];
     
+}
+
+- (void)backclick
+{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (FQHeadView *)headView{
@@ -125,12 +148,14 @@
         }else if(yOffset<-64){
             [self.view_bar setHidden:NO];
             self.pageTitle.hidden = NO;
+            [self.backBtn setTitleColor:[UIColor whiteColor] forState:0];
             self.pageTitle.textColor = RGBA(255, 255, 255, (HeadViewHeight+yOffset)/ 100);
             self.view_bar.backgroundColor = RGBA(41,121,246,(HeadViewHeight+yOffset)/ 100);
         }else
         {
             [self.view_bar setHidden:NO];
             self.pageTitle.hidden = NO;
+            [self.backBtn setTitleColor:[UIColor blackColor] forState:0];
             self.view_bar.backgroundColor = RGBA(41,121,246,1);
         }
     }
@@ -151,11 +176,18 @@
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [self.navigationController pushViewController:[TestViewController new] animated:YES];
+}
+
 - (UITableView *)tableView
 {
     if (!_tableView) {
         _tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
         _tableView.backgroundColor = [UIColor whiteColor];
+        _tableView.showsVerticalScrollIndicator = NO;
+        _tableView.contentInset = UIEdgeInsetsMake(HeadViewHeight, 0, 0, 0);
         _tableView.delegate = self;
         _tableView.dataSource = self;
         _tableView.estimatedRowHeight = 0;
@@ -168,7 +200,8 @@
         }else{
             self.automaticallyAdjustsScrollViewInsets = NO;
         }
-        
+        [self.view addSubview:self.tableView];
+
     }
     return _tableView;
 }
