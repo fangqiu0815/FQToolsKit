@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181C8A341E60292700395837 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181C8A331E60292600395837 /* main.m */; };
+		181C8A371E60292700395837 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181C8A361E60292700395837 /* AppDelegate.m */; };
+		181C8A3A1E60292700395837 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181C8A391E60292700395837 /* ViewController.m */; };
+		181C8A3D1E60292700395837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181C8A3B1E60292700395837 /* Main.storyboard */; };
+		181C8A3F1E60292700395837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181C8A3E1E60292700395837 /* Assets.xcassets */; };
+		181C8A421E60292700395837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181C8A401E60292700395837 /* LaunchScreen.storyboard */; };
+		181C8A4D1E60292700395837 /* YJSPayManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181C8A4C1E60292700395837 /* YJSPayManagerDemoTests.m */; };
+		181C8A581E60292700395837 /* YJSPayManagerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181C8A571E60292700395837 /* YJSPayManagerDemoUITests.m */; };
+		181C8A681E602C6D00395837 /* YJSPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 181C8A671E602C6D00395837 /* YJSPayManager.m */; };
+		6AA88AC29FCDA2185F4D9CB7 /* libPods-YJSPayManagerDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6974AEC9A5E6918077813F /* libPods-YJSPayManagerDemoUITests.a */; };
+		8668E3FE6B91EE8A103B2FD3 /* libPods-YJSPayManagerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0DECCF8147CAFCAC50BDDF /* libPods-YJSPayManagerDemo.a */; };
+		9A595C8D3EBAC495E3EB0FBF /* libPods-YJSPayManagerDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 248C1462D47596C86ECB4191 /* libPods-YJSPayManagerDemoTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181C8A491E60292700395837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181C8A271E60292600395837 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181C8A2E1E60292600395837;
+			remoteInfo = YJSPayManagerDemo;
+		};
+		181C8A541E60292700395837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181C8A271E60292600395837 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181C8A2E1E60292600395837;
+			remoteInfo = YJSPayManagerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181C8A2F1E60292600395837 /* YJSPayManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJSPayManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181C8A331E60292600395837 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181C8A351E60292700395837 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		181C8A361E60292700395837 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		181C8A381E60292700395837 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		181C8A391E60292700395837 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		181C8A3C1E60292700395837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		181C8A3E1E60292700395837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		181C8A411E60292700395837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		181C8A431E60292700395837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181C8A481E60292700395837 /* YJSPayManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJSPayManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181C8A4C1E60292700395837 /* YJSPayManagerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJSPayManagerDemoTests.m; sourceTree = "<group>"; };
+		181C8A4E1E60292700395837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181C8A531E60292700395837 /* YJSPayManagerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJSPayManagerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181C8A571E60292700395837 /* YJSPayManagerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJSPayManagerDemoUITests.m; sourceTree = "<group>"; };
+		181C8A591E60292700395837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181C8A661E602C6D00395837 /* YJSPayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJSPayManager.h; sourceTree = "<group>"; };
+		181C8A671E602C6D00395837 /* YJSPayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJSPayManager.m; sourceTree = "<group>"; };
+		248C1462D47596C86ECB4191 /* libPods-YJSPayManagerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YJSPayManagerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BDDE5797FF45558B69BE0B5 /* Pods-YJSPayManagerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJSPayManagerDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJSPayManagerDemoUITests/Pods-YJSPayManagerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D9F3FD90F07F216ACA1E5A7 /* Pods-YJSPayManagerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJSPayManagerDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJSPayManagerDemoUITests/Pods-YJSPayManagerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4166248AD9A99FF258085AE0 /* Pods-YJSPayManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJSPayManagerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJSPayManagerDemo/Pods-YJSPayManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		49865DF9596997179A21F34C /* Pods-YJSPayManagerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJSPayManagerDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJSPayManagerDemoTests/Pods-YJSPayManagerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B0DECCF8147CAFCAC50BDDF /* libPods-YJSPayManagerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YJSPayManagerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6974AEC9A5E6918077813F /* libPods-YJSPayManagerDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YJSPayManagerDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E129127D2F4B06646D46A23E /* Pods-YJSPayManagerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJSPayManagerDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJSPayManagerDemoTests/Pods-YJSPayManagerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		F0729707DC8777E0C013DCC5 /* Pods-YJSPayManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJSPayManagerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJSPayManagerDemo/Pods-YJSPayManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181C8A2C1E60292600395837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8668E3FE6B91EE8A103B2FD3 /* libPods-YJSPayManagerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181C8A451E60292700395837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A595C8D3EBAC495E3EB0FBF /* libPods-YJSPayManagerDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181C8A501E60292700395837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA88AC29FCDA2185F4D9CB7 /* libPods-YJSPayManagerDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181C8A261E60292600395837 = {
+			isa = PBXGroup;
+			children = (
+				181C8A311E60292600395837 /* YJSPayManagerDemo */,
+				181C8A4B1E60292700395837 /* YJSPayManagerDemoTests */,
+				181C8A561E60292700395837 /* YJSPayManagerDemoUITests */,
+				181C8A301E60292600395837 /* Products */,
+				52372F9398F88E4F5C667309 /* Pods */,
+				624C828F187332A5D8465FDC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		181C8A301E60292600395837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181C8A2F1E60292600395837 /* YJSPayManagerDemo.app */,
+				181C8A481E60292700395837 /* YJSPayManagerDemoTests.xctest */,
+				181C8A531E60292700395837 /* YJSPayManagerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181C8A311E60292600395837 /* YJSPayManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				181C8A651E602C4200395837 /* YJSPayManager */,
+				181C8A351E60292700395837 /* AppDelegate.h */,
+				181C8A361E60292700395837 /* AppDelegate.m */,
+				181C8A381E60292700395837 /* ViewController.h */,
+				181C8A391E60292700395837 /* ViewController.m */,
+				181C8A3B1E60292700395837 /* Main.storyboard */,
+				181C8A3E1E60292700395837 /* Assets.xcassets */,
+				181C8A401E60292700395837 /* LaunchScreen.storyboard */,
+				181C8A431E60292700395837 /* Info.plist */,
+				181C8A321E60292600395837 /* Supporting Files */,
+			);
+			path = YJSPayManagerDemo;
+			sourceTree = "<group>";
+		};
+		181C8A321E60292600395837 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				181C8A331E60292600395837 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		181C8A4B1E60292700395837 /* YJSPayManagerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				181C8A4C1E60292700395837 /* YJSPayManagerDemoTests.m */,
+				181C8A4E1E60292700395837 /* Info.plist */,
+			);
+			path = YJSPayManagerDemoTests;
+			sourceTree = "<group>";
+		};
+		181C8A561E60292700395837 /* YJSPayManagerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				181C8A571E60292700395837 /* YJSPayManagerDemoUITests.m */,
+				181C8A591E60292700395837 /* Info.plist */,
+			);
+			path = YJSPayManagerDemoUITests;
+			sourceTree = "<group>";
+		};
+		181C8A651E602C4200395837 /* YJSPayManager */ = {
+			isa = PBXGroup;
+			children = (
+				181C8A661E602C6D00395837 /* YJSPayManager.h */,
+				181C8A671E602C6D00395837 /* YJSPayManager.m */,
+			);
+			path = YJSPayManager;
+			sourceTree = "<group>";
+		};
+		52372F9398F88E4F5C667309 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4166248AD9A99FF258085AE0 /* Pods-YJSPayManagerDemo.debug.xcconfig */,
+				F0729707DC8777E0C013DCC5 /* Pods-YJSPayManagerDemo.release.xcconfig */,
+				49865DF9596997179A21F34C /* Pods-YJSPayManagerDemoTests.debug.xcconfig */,
+				E129127D2F4B06646D46A23E /* Pods-YJSPayManagerDemoTests.release.xcconfig */,
+				2BDDE5797FF45558B69BE0B5 /* Pods-YJSPayManagerDemoUITests.debug.xcconfig */,
+				2D9F3FD90F07F216ACA1E5A7 /* Pods-YJSPayManagerDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		624C828F187332A5D8465FDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B0DECCF8147CAFCAC50BDDF /* libPods-YJSPayManagerDemo.a */,
+				248C1462D47596C86ECB4191 /* libPods-YJSPayManagerDemoTests.a */,
+				AF6974AEC9A5E6918077813F /* libPods-YJSPayManagerDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181C8A2E1E60292600395837 /* YJSPayManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181C8A5C1E60292700395837 /* Build configuration list for PBXNativeTarget "YJSPayManagerDemo" */;
+			buildPhases = (
+				35C880ECE183FEB25264A9DC /* [CP] Check Pods Manifest.lock */,
+				181C8A2B1E60292600395837 /* Sources */,
+				181C8A2C1E60292600395837 /* Frameworks */,
+				181C8A2D1E60292600395837 /* Resources */,
+				1A9A54B4CF59D95D7AB34BD9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJSPayManagerDemo;
+			productName = YJSPayManagerDemo;
+			productReference = 181C8A2F1E60292600395837 /* YJSPayManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		181C8A471E60292700395837 /* YJSPayManagerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181C8A5F1E60292700395837 /* Build configuration list for PBXNativeTarget "YJSPayManagerDemoTests" */;
+			buildPhases = (
+				4680CE9B52B41A7F5D159E5A /* [CP] Check Pods Manifest.lock */,
+				181C8A441E60292700395837 /* Sources */,
+				181C8A451E60292700395837 /* Frameworks */,
+				181C8A461E60292700395837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181C8A4A1E60292700395837 /* PBXTargetDependency */,
+			);
+			name = YJSPayManagerDemoTests;
+			productName = YJSPayManagerDemoTests;
+			productReference = 181C8A481E60292700395837 /* YJSPayManagerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		181C8A521E60292700395837 /* YJSPayManagerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181C8A621E60292700395837 /* Build configuration list for PBXNativeTarget "YJSPayManagerDemoUITests" */;
+			buildPhases = (
+				77A15D240F7BEDB7CC13EE4C /* [CP] Check Pods Manifest.lock */,
+				181C8A4F1E60292700395837 /* Sources */,
+				181C8A501E60292700395837 /* Frameworks */,
+				181C8A511E60292700395837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181C8A551E60292700395837 /* PBXTargetDependency */,
+			);
+			name = YJSPayManagerDemoUITests;
+			productName = YJSPayManagerDemoUITests;
+			productReference = 181C8A531E60292700395837 /* YJSPayManagerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181C8A271E60292600395837 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = YJS;
+				TargetAttributes = {
+					181C8A2E1E60292600395837 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AR9M6JHEVE;
+						ProvisioningStyle = Automatic;
+					};
+					181C8A471E60292700395837 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L7B275JG2T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 181C8A2E1E60292600395837;
+					};
+					181C8A521E60292700395837 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L7B275JG2T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 181C8A2E1E60292600395837;
+					};
+				};
+			};
+			buildConfigurationList = 181C8A2A1E60292600395837 /* Build configuration list for PBXProject "YJSPayManagerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181C8A261E60292600395837;
+			productRefGroup = 181C8A301E60292600395837 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181C8A2E1E60292600395837 /* YJSPayManagerDemo */,
+				181C8A471E60292700395837 /* YJSPayManagerDemoTests */,
+				181C8A521E60292700395837 /* YJSPayManagerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181C8A2D1E60292600395837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181C8A421E60292700395837 /* LaunchScreen.storyboard in Resources */,
+				181C8A3F1E60292700395837 /* Assets.xcassets in Resources */,
+				181C8A3D1E60292700395837 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181C8A461E60292700395837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181C8A511E60292700395837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A9A54B4CF59D95D7AB34BD9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YJSPayManagerDemo/Pods-YJSPayManagerDemo-resources.sh",
+				"${PODS_ROOT}/Alipay_SDK_iOS/Alipay/AlipaySDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlipaySDK.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJSPayManagerDemo/Pods-YJSPayManagerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35C880ECE183FEB25264A9DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YJSPayManagerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4680CE9B52B41A7F5D159E5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YJSPayManagerDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77A15D240F7BEDB7CC13EE4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YJSPayManagerDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181C8A2B1E60292600395837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181C8A3A1E60292700395837 /* ViewController.m in Sources */,
+				181C8A681E602C6D00395837 /* YJSPayManager.m in Sources */,
+				181C8A371E60292700395837 /* AppDelegate.m in Sources */,
+				181C8A341E60292700395837 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181C8A441E60292700395837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181C8A4D1E60292700395837 /* YJSPayManagerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181C8A4F1E60292700395837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181C8A581E60292700395837 /* YJSPayManagerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		181C8A4A1E60292700395837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181C8A2E1E60292600395837 /* YJSPayManagerDemo */;
+			targetProxy = 181C8A491E60292700395837 /* PBXContainerItemProxy */;
+		};
+		181C8A551E60292700395837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181C8A2E1E60292600395837 /* YJSPayManagerDemo */;
+			targetProxy = 181C8A541E60292700395837 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		181C8A3B1E60292700395837 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181C8A3C1E60292700395837 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		181C8A401E60292700395837 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181C8A411E60292700395837 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		181C8A5A1E60292700395837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		181C8A5B1E60292700395837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181C8A5D1E60292700395837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4166248AD9A99FF258085AE0 /* Pods-YJSPayManagerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = YJSPayManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huajian.com.YJSPayManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		181C8A5E1E60292700395837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0729707DC8777E0C013DCC5 /* Pods-YJSPayManagerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				INFOPLIST_FILE = YJSPayManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huajian.com.YJSPayManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		181C8A601E60292700395837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49865DF9596997179A21F34C /* Pods-YJSPayManagerDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L7B275JG2T;
+				INFOPLIST_FILE = YJSPayManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huajian.com.YJSPayManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJSPayManagerDemo.app/YJSPayManagerDemo";
+			};
+			name = Debug;
+		};
+		181C8A611E60292700395837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E129127D2F4B06646D46A23E /* Pods-YJSPayManagerDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L7B275JG2T;
+				INFOPLIST_FILE = YJSPayManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huajian.com.YJSPayManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJSPayManagerDemo.app/YJSPayManagerDemo";
+			};
+			name = Release;
+		};
+		181C8A631E60292700395837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BDDE5797FF45558B69BE0B5 /* Pods-YJSPayManagerDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L7B275JG2T;
+				INFOPLIST_FILE = YJSPayManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huajian.com.YJSPayManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YJSPayManagerDemo;
+			};
+			name = Debug;
+		};
+		181C8A641E60292700395837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D9F3FD90F07F216ACA1E5A7 /* Pods-YJSPayManagerDemoUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L7B275JG2T;
+				INFOPLIST_FILE = YJSPayManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huajian.com.YJSPayManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YJSPayManagerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181C8A2A1E60292600395837 /* Build configuration list for PBXProject "YJSPayManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181C8A5A1E60292700395837 /* Debug */,
+				181C8A5B1E60292700395837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181C8A5C1E60292700395837 /* Build configuration list for PBXNativeTarget "YJSPayManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181C8A5D1E60292700395837 /* Debug */,
+				181C8A5E1E60292700395837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181C8A5F1E60292700395837 /* Build configuration list for PBXNativeTarget "YJSPayManagerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181C8A601E60292700395837 /* Debug */,
+				181C8A611E60292700395837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181C8A621E60292700395837 /* Build configuration list for PBXNativeTarget "YJSPayManagerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181C8A631E60292700395837 /* Debug */,
+				181C8A641E60292700395837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181C8A271E60292600395837 /* Project object */;
+}
