@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040EAF9720D9EC7E0075253E /* FQWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040EAF9620D9EC7E0075253E /* FQWKWebViewController.m */; };
 		0475437020C6695F0023B44E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475436F20C6695F0023B44E /* AppDelegate.m */; };
 		0475437320C6695F0023B44E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0475437220C6695F0023B44E /* ViewController.m */; };
 		0475437620C6695F0023B44E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0475437420C6695F0023B44E /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040EAF9520D9EC7E0075253E /* FQWKWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQWKWebViewController.h; sourceTree = "<group>"; };
+		040EAF9620D9EC7E0075253E /* FQWKWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQWKWebViewController.m; sourceTree = "<group>"; };
 		0475436B20C6695F0023B44E /* FQWKWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FQWKWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0475436E20C6695F0023B44E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0475436F20C6695F0023B44E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040EAF9420D9EC560075253E /* FQWKWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				040EAF9520D9EC7E0075253E /* FQWKWebViewController.h */,
+				040EAF9620D9EC7E0075253E /* FQWKWebViewController.m */,
+			);
+			path = FQWKWebViewController;
+			sourceTree = "<group>";
+		};
 		0475436220C6695F0023B44E = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +113,7 @@
 		0475436D20C6695F0023B44E /* FQWKWebView */ = {
 			isa = PBXGroup;
 			children = (
+				040EAF9420D9EC560075253E /* FQWKWebViewController */,
 				0475436E20C6695F0023B44E /* AppDelegate.h */,
 				0475436F20C6695F0023B44E /* AppDelegate.m */,
 				0475437120C6695F0023B44E /* ViewController.h */,
@@ -262,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040EAF9720D9EC7E0075253E /* FQWKWebViewController.m in Sources */,
 				0475437320C6695F0023B44E /* ViewController.m in Sources */,
 				0475437E20C669610023B44E /* main.m in Sources */,
 				0475437020C6695F0023B44E /* AppDelegate.m in Sources */,
@@ -436,6 +450,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AR9M6JHEVE;
 				INFOPLIST_FILE = FQWKWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AR9M6JHEVE;
 				INFOPLIST_FILE = FQWKWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
