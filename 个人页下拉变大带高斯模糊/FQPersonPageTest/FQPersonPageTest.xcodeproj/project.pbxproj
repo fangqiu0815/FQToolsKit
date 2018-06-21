@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0415270B20DB588000EB9186 /* AnimaPersonHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415270A20DB588000EB9186 /* AnimaPersonHeaderViewController.m */; };
+		0415270E20DB595200EB9186 /* PayBillTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415270D20DB595200EB9186 /* PayBillTitleView.m */; };
+		0415271120DB596000EB9186 /* PayTheBillHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415271020DB596000EB9186 /* PayTheBillHeaderView.m */; };
+		0415271420DB79CB00EB9186 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415271220DB79CB00EB9186 /* UIImage+Extension.m */; };
+		0415271720DB812A00EB9186 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415271520DB812900EB9186 /* UIView+Frame.m */; };
 		0449C55220C516A60003C983 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449C55120C516A60003C983 /* AppDelegate.m */; };
 		0449C55520C516A60003C983 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449C55420C516A60003C983 /* ViewController.m */; };
 		0449C55820C516A60003C983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0449C55620C516A60003C983 /* Main.storyboard */; };
@@ -51,6 +56,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0415270920DB588000EB9186 /* AnimaPersonHeaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimaPersonHeaderViewController.h; sourceTree = "<group>"; };
+		0415270A20DB588000EB9186 /* AnimaPersonHeaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimaPersonHeaderViewController.m; sourceTree = "<group>"; };
+		0415270C20DB595200EB9186 /* PayBillTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayBillTitleView.h; sourceTree = "<group>"; };
+		0415270D20DB595200EB9186 /* PayBillTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayBillTitleView.m; sourceTree = "<group>"; };
+		0415270F20DB596000EB9186 /* PayTheBillHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayTheBillHeaderView.h; sourceTree = "<group>"; };
+		0415271020DB596000EB9186 /* PayTheBillHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayTheBillHeaderView.m; sourceTree = "<group>"; };
+		0415271220DB79CB00EB9186 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		0415271320DB79CB00EB9186 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		0415271520DB812900EB9186 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		0415271620DB812900EB9186 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		0449C54D20C516A60003C983 /* FQPersonPageTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FQPersonPageTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0449C55020C516A60003C983 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0449C55120C516A60003C983 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -130,6 +145,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0415270820DB56B700EB9186 /* AnimaPersonHeader */ = {
+			isa = PBXGroup;
+			children = (
+				0415270920DB588000EB9186 /* AnimaPersonHeaderViewController.h */,
+				0415270A20DB588000EB9186 /* AnimaPersonHeaderViewController.m */,
+				0415270C20DB595200EB9186 /* PayBillTitleView.h */,
+				0415270D20DB595200EB9186 /* PayBillTitleView.m */,
+				0415270F20DB596000EB9186 /* PayTheBillHeaderView.h */,
+				0415271020DB596000EB9186 /* PayTheBillHeaderView.m */,
+			);
+			path = AnimaPersonHeader;
+			sourceTree = "<group>";
+		};
 		0449C54420C516A60003C983 = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +181,11 @@
 		0449C54F20C516A60003C983 /* FQPersonPageTest */ = {
 			isa = PBXGroup;
 			children = (
+				0415271620DB812900EB9186 /* UIView+Frame.h */,
+				0415271520DB812900EB9186 /* UIView+Frame.m */,
+				0415271320DB79CB00EB9186 /* UIImage+Extension.h */,
+				0415271220DB79CB00EB9186 /* UIImage+Extension.m */,
+				0415270820DB56B700EB9186 /* AnimaPersonHeader */,
 				0449C5B020C528990003C983 /* LBBlurredImage */,
 				0449C5AE20C528580003C983 /* huba.jpeg */,
 				0449C58220C519220003C983 /* Masonry */,
@@ -368,11 +401,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0449C5B620C528990003C983 /* UIImageView+LBBlurredImage.m in Sources */,
+				0415271720DB812A00EB9186 /* UIView+Frame.m in Sources */,
+				0415271120DB596000EB9186 /* PayTheBillHeaderView.m in Sources */,
 				0449C5B520C528990003C983 /* UIImage+ImageEffects.m in Sources */,
 				0449C5A320C519220003C983 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				0415270E20DB595200EB9186 /* PayBillTitleView.m in Sources */,
+				0415270B20DB588000EB9186 /* AnimaPersonHeaderViewController.m in Sources */,
 				0449C5A120C519220003C983 /* MASViewConstraint.m in Sources */,
 				0449C5A820C519460003C983 /* TestViewController.m in Sources */,
 				0449C59C20C519220003C983 /* MASCompositeConstraint.m in Sources */,
+				0415271420DB79CB00EB9186 /* UIImage+Extension.m in Sources */,
 				0449C5A220C519220003C983 /* NSArray+MASAdditions.m in Sources */,
 				0449C55520C516A60003C983 /* ViewController.m in Sources */,
 				0449C56020C516A80003C983 /* main.m in Sources */,
