@@ -1,5 +1,5 @@
 //
-//  MeiTuanAppViewController.h
+//  MTDetailMenuList.h
 //  FQLinkageTableViewTool
 //
 //  Created by mac on 2018/6/26.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MeiTuanAppViewController : UIViewController
+@interface MTDetailMenuList : UITableView
 
 @end

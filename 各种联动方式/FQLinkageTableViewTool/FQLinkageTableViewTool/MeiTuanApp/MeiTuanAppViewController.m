@@ -7,8 +7,20 @@
 //
 
 #import "MeiTuanAppViewController.h"
+#import "MTTableViewCell.h"
+#import "MTGoodsCarToolBar.h"
+#import "MTDetailNavgation.h"
+#import "MTDetailCollection.h"
 
-@interface MeiTuanAppViewController ()
+@interface MeiTuanAppViewController ()<UITableViewDataSource,UITableViewDelegate,UICollectionViewDelegate,UICollectionViewDataSource>
+
+@property (nonatomic , strong) MTDetailNavgation * navgation;
+@property (nonatomic , strong) MTDetailCollection * mainCollection;
+@property (nonatomic , strong) MTGoodsCarToolBar  * goodsCarBar;
+@property (nonatomic , strong) MTGoodsContro * goodVc;
+@property (nonatomic , assign) CGPoint  point;
+
+
 
 @end
 
