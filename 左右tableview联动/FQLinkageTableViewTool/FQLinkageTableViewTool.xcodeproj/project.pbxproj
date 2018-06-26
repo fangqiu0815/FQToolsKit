@@ -15,6 +15,10 @@
 		0434ECF820CE1B34000156A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0434ECF720CE1B34000156A5 /* main.m */; };
 		0434ED0220CE1B34000156A5 /* FQLinkageTableViewToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0434ED0120CE1B34000156A5 /* FQLinkageTableViewToolTests.m */; };
 		0434ED0D20CE1B34000156A5 /* FQLinkageTableViewToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0434ED0C20CE1B34000156A5 /* FQLinkageTableViewToolUITests.m */; };
+		04720F2B20E1E0D3004B3334 /* BaseAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04720F2A20E1E0D3004B3334 /* BaseAppViewController.m */; };
+		04720F2F20E1E182004B3334 /* MeiTuanAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04720F2E20E1E182004B3334 /* MeiTuanAppViewController.m */; };
+		04720F3220E1E191004B3334 /* GovAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04720F3120E1E191004B3334 /* GovAppViewController.m */; };
+		04720F3520E1E1A0004B3334 /* AliPayAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04720F3420E1E1A0004B3334 /* AliPayAppViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,15 @@
 		0434ED0820CE1B34000156A5 /* FQLinkageTableViewToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQLinkageTableViewToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0434ED0C20CE1B34000156A5 /* FQLinkageTableViewToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQLinkageTableViewToolUITests.m; sourceTree = "<group>"; };
 		0434ED0E20CE1B34000156A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04720F2920E1E0D3004B3334 /* BaseAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseAppViewController.h; sourceTree = "<group>"; };
+		04720F2A20E1E0D3004B3334 /* BaseAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseAppViewController.m; sourceTree = "<group>"; };
+		04720F2C20E1E0EB004B3334 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		04720F2D20E1E182004B3334 /* MeiTuanAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeiTuanAppViewController.h; sourceTree = "<group>"; };
+		04720F2E20E1E182004B3334 /* MeiTuanAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeiTuanAppViewController.m; sourceTree = "<group>"; };
+		04720F3020E1E191004B3334 /* GovAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GovAppViewController.h; sourceTree = "<group>"; };
+		04720F3120E1E191004B3334 /* GovAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GovAppViewController.m; sourceTree = "<group>"; };
+		04720F3320E1E1A0004B3334 /* AliPayAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AliPayAppViewController.h; sourceTree = "<group>"; };
+		04720F3420E1E1A0004B3334 /* AliPayAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AliPayAppViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +114,10 @@
 		0434ECE720CE1B33000156A5 /* FQLinkageTableViewTool */ = {
 			isa = PBXGroup;
 			children = (
+				04720F2820E1E0B8004B3334 /* BaseApp */,
+				04720F2720E1E09F004B3334 /* MeiTuanApp */,
+				04720F2620E1E091004B3334 /* GovApp */,
+				04720F2520E1E077004B3334 /* AliPayApp */,
 				0434ECE820CE1B33000156A5 /* AppDelegate.h */,
 				0434ECE920CE1B33000156A5 /* AppDelegate.m */,
 				0434ECEB20CE1B33000156A5 /* ViewController.h */,
@@ -110,6 +127,7 @@
 				0434ECF320CE1B34000156A5 /* LaunchScreen.storyboard */,
 				0434ECF620CE1B34000156A5 /* Info.plist */,
 				0434ECF720CE1B34000156A5 /* main.m */,
+				04720F2C20E1E0EB004B3334 /* PrefixHeader.pch */,
 			);
 			path = FQLinkageTableViewTool;
 			sourceTree = "<group>";
@@ -130,6 +148,42 @@
 				0434ED0E20CE1B34000156A5 /* Info.plist */,
 			);
 			path = FQLinkageTableViewToolUITests;
+			sourceTree = "<group>";
+		};
+		04720F2520E1E077004B3334 /* AliPayApp */ = {
+			isa = PBXGroup;
+			children = (
+				04720F3320E1E1A0004B3334 /* AliPayAppViewController.h */,
+				04720F3420E1E1A0004B3334 /* AliPayAppViewController.m */,
+			);
+			path = AliPayApp;
+			sourceTree = "<group>";
+		};
+		04720F2620E1E091004B3334 /* GovApp */ = {
+			isa = PBXGroup;
+			children = (
+				04720F3020E1E191004B3334 /* GovAppViewController.h */,
+				04720F3120E1E191004B3334 /* GovAppViewController.m */,
+			);
+			path = GovApp;
+			sourceTree = "<group>";
+		};
+		04720F2720E1E09F004B3334 /* MeiTuanApp */ = {
+			isa = PBXGroup;
+			children = (
+				04720F2D20E1E182004B3334 /* MeiTuanAppViewController.h */,
+				04720F2E20E1E182004B3334 /* MeiTuanAppViewController.m */,
+			);
+			path = MeiTuanApp;
+			sourceTree = "<group>";
+		};
+		04720F2820E1E0B8004B3334 /* BaseApp */ = {
+			isa = PBXGroup;
+			children = (
+				04720F2920E1E0D3004B3334 /* BaseAppViewController.h */,
+				04720F2A20E1E0D3004B3334 /* BaseAppViewController.m */,
+			);
+			path = BaseApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +316,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04720F3520E1E1A0004B3334 /* AliPayAppViewController.m in Sources */,
 				0434ECED20CE1B33000156A5 /* ViewController.m in Sources */,
+				04720F3220E1E191004B3334 /* GovAppViewController.m in Sources */,
+				04720F2F20E1E182004B3334 /* MeiTuanAppViewController.m in Sources */,
+				04720F2B20E1E0D3004B3334 /* BaseAppViewController.m in Sources */,
 				0434ECF820CE1B34000156A5 /* main.m in Sources */,
 				0434ECEA20CE1B33000156A5 /* AppDelegate.m in Sources */,
 			);
@@ -435,6 +493,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				GCC_PREFIX_HEADER = FQLinkageTableViewTool/PrefixHeader.pch;
 				INFOPLIST_FILE = FQLinkageTableViewTool/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -453,6 +512,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				GCC_PREFIX_HEADER = FQLinkageTableViewTool/PrefixHeader.pch;
 				INFOPLIST_FILE = FQLinkageTableViewTool/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
