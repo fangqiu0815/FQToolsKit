@@ -39,7 +39,6 @@
     
     // accessoryView + model选中状态实现单选🔘
     if (payTypeModel.isChecked) {
-        
         self.accessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"selected_on"]];
     }else {
         self.accessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"selected_off"]];
