@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E5390E2130030A0006DDA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5390D2130030A0006DDA3 /* AppDelegate.m */; };
+		04E539112130030A0006DDA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E539102130030A0006DDA3 /* ViewController.m */; };
+		04E539142130030A0006DDA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E539122130030A0006DDA3 /* Main.storyboard */; };
+		04E539162130030C0006DDA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E539152130030C0006DDA3 /* Assets.xcassets */; };
+		04E539192130030C0006DDA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E539172130030C0006DDA3 /* LaunchScreen.storyboard */; };
+		04E5391C2130030C0006DDA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E5391B2130030C0006DDA3 /* main.m */; };
+		04E539262130030C0006DDA3 /* FQCanCopyLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E539252130030C0006DDA3 /* FQCanCopyLabelDemoTests.m */; };
+		04E539312130030C0006DDA3 /* FQCanCopyLabelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E539302130030C0006DDA3 /* FQCanCopyLabelDemoUITests.m */; };
+		04E53941213003390006DDA3 /* FQCopyLabelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E53940213003390006DDA3 /* FQCopyLabelTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04E539222130030C0006DDA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E539012130030A0006DDA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E539082130030A0006DDA3;
+			remoteInfo = FQCanCopyLabelDemo;
+		};
+		04E5392D2130030C0006DDA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E539012130030A0006DDA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E539082130030A0006DDA3;
+			remoteInfo = FQCanCopyLabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E539092130030A0006DDA3 /* FQCanCopyLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FQCanCopyLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E5390C2130030A0006DDA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04E5390D2130030A0006DDA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04E5390F2130030A0006DDA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04E539102130030A0006DDA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04E539132130030A0006DDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04E539152130030C0006DDA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E539182130030C0006DDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04E5391A2130030C0006DDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E5391B2130030C0006DDA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04E539212130030C0006DDA3 /* FQCanCopyLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQCanCopyLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E539252130030C0006DDA3 /* FQCanCopyLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQCanCopyLabelDemoTests.m; sourceTree = "<group>"; };
+		04E539272130030C0006DDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E5392C2130030C0006DDA3 /* FQCanCopyLabelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQCanCopyLabelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E539302130030C0006DDA3 /* FQCanCopyLabelDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQCanCopyLabelDemoUITests.m; sourceTree = "<group>"; };
+		04E539322130030C0006DDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E5393F213003390006DDA3 /* FQCopyLabelTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FQCopyLabelTool.h; sourceTree = "<group>"; };
+		04E53940213003390006DDA3 /* FQCopyLabelTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQCopyLabelTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E539062130030A0006DDA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E5391E2130030C0006DDA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E539292130030C0006DDA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E539002130030A0006DDA3 = {
+			isa = PBXGroup;
+			children = (
+				04E5390B2130030A0006DDA3 /* FQCanCopyLabelDemo */,
+				04E539242130030C0006DDA3 /* FQCanCopyLabelDemoTests */,
+				04E5392F2130030C0006DDA3 /* FQCanCopyLabelDemoUITests */,
+				04E5390A2130030A0006DDA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04E5390A2130030A0006DDA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E539092130030A0006DDA3 /* FQCanCopyLabelDemo.app */,
+				04E539212130030C0006DDA3 /* FQCanCopyLabelDemoTests.xctest */,
+				04E5392C2130030C0006DDA3 /* FQCanCopyLabelDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E5390B2130030A0006DDA3 /* FQCanCopyLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				04E5393E2130031E0006DDA3 /* FQCopyLabelTool */,
+				04E5390C2130030A0006DDA3 /* AppDelegate.h */,
+				04E5390D2130030A0006DDA3 /* AppDelegate.m */,
+				04E5390F2130030A0006DDA3 /* ViewController.h */,
+				04E539102130030A0006DDA3 /* ViewController.m */,
+				04E539122130030A0006DDA3 /* Main.storyboard */,
+				04E539152130030C0006DDA3 /* Assets.xcassets */,
+				04E539172130030C0006DDA3 /* LaunchScreen.storyboard */,
+				04E5391A2130030C0006DDA3 /* Info.plist */,
+				04E5391B2130030C0006DDA3 /* main.m */,
+			);
+			path = FQCanCopyLabelDemo;
+			sourceTree = "<group>";
+		};
+		04E539242130030C0006DDA3 /* FQCanCopyLabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				04E539252130030C0006DDA3 /* FQCanCopyLabelDemoTests.m */,
+				04E539272130030C0006DDA3 /* Info.plist */,
+			);
+			path = FQCanCopyLabelDemoTests;
+			sourceTree = "<group>";
+		};
+		04E5392F2130030C0006DDA3 /* FQCanCopyLabelDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04E539302130030C0006DDA3 /* FQCanCopyLabelDemoUITests.m */,
+				04E539322130030C0006DDA3 /* Info.plist */,
+			);
+			path = FQCanCopyLabelDemoUITests;
+			sourceTree = "<group>";
+		};
+		04E5393E2130031E0006DDA3 /* FQCopyLabelTool */ = {
+			isa = PBXGroup;
+			children = (
+				04E5393F213003390006DDA3 /* FQCopyLabelTool.h */,
+				04E53940213003390006DDA3 /* FQCopyLabelTool.m */,
+			);
+			path = FQCopyLabelTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E539082130030A0006DDA3 /* FQCanCopyLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E539352130030C0006DDA3 /* Build configuration list for PBXNativeTarget "FQCanCopyLabelDemo" */;
+			buildPhases = (
+				04E539052130030A0006DDA3 /* Sources */,
+				04E539062130030A0006DDA3 /* Frameworks */,
+				04E539072130030A0006DDA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FQCanCopyLabelDemo;
+			productName = FQCanCopyLabelDemo;
+			productReference = 04E539092130030A0006DDA3 /* FQCanCopyLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04E539202130030C0006DDA3 /* FQCanCopyLabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E539382130030C0006DDA3 /* Build configuration list for PBXNativeTarget "FQCanCopyLabelDemoTests" */;
+			buildPhases = (
+				04E5391D2130030C0006DDA3 /* Sources */,
+				04E5391E2130030C0006DDA3 /* Frameworks */,
+				04E5391F2130030C0006DDA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E539232130030C0006DDA3 /* PBXTargetDependency */,
+			);
+			name = FQCanCopyLabelDemoTests;
+			productName = FQCanCopyLabelDemoTests;
+			productReference = 04E539212130030C0006DDA3 /* FQCanCopyLabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04E5392B2130030C0006DDA3 /* FQCanCopyLabelDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E5393B2130030C0006DDA3 /* Build configuration list for PBXNativeTarget "FQCanCopyLabelDemoUITests" */;
+			buildPhases = (
+				04E539282130030C0006DDA3 /* Sources */,
+				04E539292130030C0006DDA3 /* Frameworks */,
+				04E5392A2130030C0006DDA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E5392E2130030C0006DDA3 /* PBXTargetDependency */,
+			);
+			name = FQCanCopyLabelDemoUITests;
+			productName = FQCanCopyLabelDemoUITests;
+			productReference = 04E5392C2130030C0006DDA3 /* FQCanCopyLabelDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E539012130030A0006DDA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04E539082130030A0006DDA3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					04E539202130030C0006DDA3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 04E539082130030A0006DDA3;
+					};
+					04E5392B2130030C0006DDA3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 04E539082130030A0006DDA3;
+					};
+				};
+			};
+			buildConfigurationList = 04E539042130030A0006DDA3 /* Build configuration list for PBXProject "FQCanCopyLabelDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E539002130030A0006DDA3;
+			productRefGroup = 04E5390A2130030A0006DDA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E539082130030A0006DDA3 /* FQCanCopyLabelDemo */,
+				04E539202130030C0006DDA3 /* FQCanCopyLabelDemoTests */,
+				04E5392B2130030C0006DDA3 /* FQCanCopyLabelDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E539072130030A0006DDA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E539192130030C0006DDA3 /* LaunchScreen.storyboard in Resources */,
+				04E539162130030C0006DDA3 /* Assets.xcassets in Resources */,
+				04E539142130030A0006DDA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E5391F2130030C0006DDA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E5392A2130030C0006DDA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E539052130030A0006DDA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E53941213003390006DDA3 /* FQCopyLabelTool.m in Sources */,
+				04E539112130030A0006DDA3 /* ViewController.m in Sources */,
+				04E5391C2130030C0006DDA3 /* main.m in Sources */,
+				04E5390E2130030A0006DDA3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E5391D2130030C0006DDA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E539262130030C0006DDA3 /* FQCanCopyLabelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E539282130030C0006DDA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E539312130030C0006DDA3 /* FQCanCopyLabelDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04E539232130030C0006DDA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E539082130030A0006DDA3 /* FQCanCopyLabelDemo */;
+			targetProxy = 04E539222130030C0006DDA3 /* PBXContainerItemProxy */;
+		};
+		04E5392E2130030C0006DDA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E539082130030A0006DDA3 /* FQCanCopyLabelDemo */;
+			targetProxy = 04E5392D2130030C0006DDA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04E539122130030A0006DDA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E539132130030A0006DDA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04E539172130030C0006DDA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E539182130030C0006DDA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E539332130030C0006DDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04E539342130030C0006DDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E539362130030C0006DDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BK7D8W6QJ2;
+				INFOPLIST_FILE = FQCanCopyLabelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQCanCopyLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04E539372130030C0006DDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BK7D8W6QJ2;
+				INFOPLIST_FILE = FQCanCopyLabelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQCanCopyLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		04E539392130030C0006DDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FQCanCopyLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQCanCopyLabelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FQCanCopyLabelDemo.app/FQCanCopyLabelDemo";
+			};
+			name = Debug;
+		};
+		04E5393A2130030C0006DDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FQCanCopyLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQCanCopyLabelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FQCanCopyLabelDemo.app/FQCanCopyLabelDemo";
+			};
+			name = Release;
+		};
+		04E5393C2130030C0006DDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FQCanCopyLabelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQCanCopyLabelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FQCanCopyLabelDemo;
+			};
+			name = Debug;
+		};
+		04E5393D2130030C0006DDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FQCanCopyLabelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdyg.FQCanCopyLabelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FQCanCopyLabelDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E539042130030A0006DDA3 /* Build configuration list for PBXProject "FQCanCopyLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E539332130030C0006DDA3 /* Debug */,
+				04E539342130030C0006DDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E539352130030C0006DDA3 /* Build configuration list for PBXNativeTarget "FQCanCopyLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E539362130030C0006DDA3 /* Debug */,
+				04E539372130030C0006DDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E539382130030C0006DDA3 /* Build configuration list for PBXNativeTarget "FQCanCopyLabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E539392130030C0006DDA3 /* Debug */,
+				04E5393A2130030C0006DDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E5393B2130030C0006DDA3 /* Build configuration list for PBXNativeTarget "FQCanCopyLabelDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E5393C2130030C0006DDA3 /* Debug */,
+				04E5393D2130030C0006DDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E539012130030A0006DDA3 /* Project object */;
+}

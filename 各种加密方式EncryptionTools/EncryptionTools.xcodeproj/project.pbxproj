@@ -170,6 +170,7 @@
 				TargetAttributes = {
 					60638A6A1CEB154C0039DE1A = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = BK7D8W6QJ2;
 					};
 				};
 			};
@@ -329,6 +330,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BK7D8W6QJ2;
 				INFOPLIST_FILE = EncryptionTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.personal.mdd.EncryptionTools;
@@ -340,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BK7D8W6QJ2;
 				INFOPLIST_FILE = EncryptionTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.personal.mdd.EncryptionTools;
