@@ -600,7 +600,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				DEVELOPMENT_TEAM = BK7D8W6QJ2;
 				GCC_PREFIX_HEADER = FQIndexesTableDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = FQIndexesTableDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -619,7 +619,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				DEVELOPMENT_TEAM = BK7D8W6QJ2;
 				GCC_PREFIX_HEADER = FQIndexesTableDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = FQIndexesTableDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

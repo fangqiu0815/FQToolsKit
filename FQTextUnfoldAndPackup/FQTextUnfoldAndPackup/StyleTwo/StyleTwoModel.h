@@ -11,12 +11,15 @@
 
 @interface StyleTwoModel : NSObject
 
-@property (nonatomic, strong)NSString *workInfo;
+@property (nonatomic, strong) NSString *workInfo;
 
-@property (nonatomic, assign)BOOL isShow;
-@property (nonatomic, assign)BOOL isBeyond;
--(CGFloat)heightForRowWithisShow:(BOOL)isShow;
--(NSMutableAttributedString *)getAttributedStringWithString:(NSString *)str;
+@property (nonatomic, assign) BOOL isShow;
+
+@property (nonatomic, assign) BOOL isBeyond;
+
+- (CGFloat)heightForRowWithisShow:(BOOL)isShow;
+
+- (NSMutableAttributedString *)getAttributedStringWithString:(NSString *)str;
 
 
 @end

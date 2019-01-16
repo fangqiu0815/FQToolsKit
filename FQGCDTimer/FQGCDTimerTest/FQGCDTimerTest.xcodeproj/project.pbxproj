@@ -458,7 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				DEVELOPMENT_TEAM = BK7D8W6QJ2;
 				INFOPLIST_FILE = FQGCDTimerTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -475,7 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				DEVELOPMENT_TEAM = BK7D8W6QJ2;
 				INFOPLIST_FILE = FQGCDTimerTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

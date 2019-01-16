@@ -31,8 +31,6 @@
     }
 }
 
-
-
 - (float) heightForString:(NSString *)value fontSize:(float)fontSize andWidth:(float)width{
     UILabel *detailLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, width, 0)];
     detailLabel.font = [UIFont systemFontOfSize:fontSize];
