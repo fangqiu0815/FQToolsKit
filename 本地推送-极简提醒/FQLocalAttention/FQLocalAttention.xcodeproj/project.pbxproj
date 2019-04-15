@@ -57,6 +57,7 @@
 		0475431220C664460023B44E /* FQLocalNotificationTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQLocalNotificationTool.m; sourceTree = "<group>"; };
 		0475431420C664990023B44E /* NSString+FQString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+FQString.h"; sourceTree = "<group>"; };
 		0475431520C664990023B44E /* NSString+FQString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+FQString.m"; sourceTree = "<group>"; };
+		04F27D23226427EE00945570 /* FQLocalAttention.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FQLocalAttention.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +108,7 @@
 		0449C5C220C53A560003C983 /* FQLocalAttention */ = {
 			isa = PBXGroup;
 			children = (
+				04F27D23226427EE00945570 /* FQLocalAttention.entitlements */,
 				0475431020C664090023B44E /* FQLocalNotiTool */,
 				0449C5C320C53A560003C983 /* AppDelegate.h */,
 				0449C5C420C53A560003C983 /* AppDelegate.m */,
@@ -217,6 +219,11 @@
 				TargetAttributes = {
 					0449C5BF20C53A560003C983 = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 					0449C5D720C53A570003C983 = {
 						CreatedOnToolsVersion = 9.3;
@@ -454,7 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				DEVELOPMENT_TEAM = FRF9YY73SF;
 				INFOPLIST_FILE = FQLocalAttention/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AR9M6JHEVE;
+				DEVELOPMENT_TEAM = FRF9YY73SF;
 				INFOPLIST_FILE = FQLocalAttention/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (

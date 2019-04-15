@@ -322,7 +322,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "python ${SRCROOT}/${TAEGET_NAME}LanguageSettingsDemo/Resources/StoryboardAutoGenStrings.py ${SRCROOT}/${TAEGET_NAME}LanguageSettingsDemo/";
+			shellScript = "python ${SRCROOT}/${TAEGET_NAME}LanguageSettingsDemo/Resources/StoryboardAutoGenStrings.py ${SRCROOT}/${TAEGET_NAME}LanguageSettingsDemo/\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
